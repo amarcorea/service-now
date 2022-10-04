@@ -1,0 +1,55 @@
+Aplicaciones
+PDCT0029473 - MIDDLEWARE LOCAL
+PDCT0050074 - CUSTOMER SCREENING BATCH
+PDCT0043135 - TRANSACTION FILTERING
+
+Estados de Release en Nuevo
+1 = New
+2 = Certification
+13 = Cancelled
+
+Estados de Release en Certification
+-1 = On Hold
+2 = Certification
+14 = Waiting Accept
+13 = Cancelled
+
+Estados de Release en Pre-production
+1 = New
+-1 = On Hold
+15 = Pre-Production
+5 = Testing
+13 = Cancelled
+
+Estados de Release en Testing
+1 = New
+-1 = On Hold
+15 = Pre-Production
+5 = Testing
+13 = Cancelled
+
+
+TASKS - Applications
+OneFCC
+Middleware (workday)
+ONEHR (Workday)
+
+Tasks - Estados
+1 = Open
+2 = Work In Progress
+3 = Closed Complete
+4 = Closed Incomplete
+7 = Closed Skipped
+
+Tasks - Close codes
+Successful
+Successful automatic
+Successful with issues
+Unsuccessful
+Cancelled
+rejected
+
+- 
+Módulos de ansible
+Básico
+

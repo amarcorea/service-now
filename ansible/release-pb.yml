@@ -1,0 +1,28 @@
+- hosts: localhost
+  vars_files:
+    - vars/accesos.yml
+  vars:
+    email_random: "{{ lookup('password', '/dev/null chars=ascii_lowercase,digits length=12') }}@random.local"
+  tasks:
+    
+    - name: Invocando a librería
+      sgt_onefcc_servicenow_release:
+        state: create
+        authType: token
+        headers: 
+          Authorization: "Bearer {{ token }}"
+        usuario: ""
+        password: ""
+        instancia_sn: https://gorest.co.in
+        uri: "/public/v2/users"
+        data: 
+          name: Prueba ansible
+          gender: male
+          email: "{{ email_random }}"
+          status: active
+        log: True
+      register: out_release
+
+    - name: Imprimiendo salida
+      debug:
+        msg: Salida {{ out_release.message }}

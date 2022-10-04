@@ -1,0 +1,1091 @@
+{
+	"info": {
+		"_postman_id": "3c37c006-43c0-4291-ab88-43810e4ad1bd",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DEV Calls",
+			"item": [
+				{
+					"name": "Create Release",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "user_sgt_pipeline_rlse#test",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "user_sgt_pipeline_rlse",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"parent\":\"PDCT0029473\",\r\n\"u_requested_group\":\"SGT_IN_SY_ES_NUEVAS_TECNOLOG\",\r\n\"u_reason\":\"New Application\",\r\n\"u_risk\":\"4\",\r\n\"assignment_group\":\"SGT_IN_IM_ES_DevOps_Corporate\",\r\n\"short_description\":\"Prueba Creacion RLSE 2\",\r\n\"description\":\"Prueba Creacion RLSE 2\",\r\n\"u_justification\":\"Prueba Creacion RLSE 2\",\r\n\"u_implementation_plan\":\"Prueba Creacion RLSE 2\",\r\n\"u_preproduction_proposed_date\":\"2021-11-13 22:14:00\",\r\n\"u_start_date\":\"2021-11-13 22:13:00\",\r\n\"u_end_date\":\"2021-12-30 00:00:00\"\r\n}"
+						},
+						"url": {
+							"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_release",
+							"protocol": "https",
+							"host": [
+								"santandertest",
+								"service-now",
+								"com"
+							],
+							"path": [
+								"api",
+								"now",
+								"v2",
+								"table",
+								"rm_release"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Release Copy",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "bLO4dY#*#Vaj",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "user_sgt_pipeline_rlse",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"parent\":\"PDCT0029473\",\r\n\"u_requested_group\":\"eaf16520dbd58450f1024dc2ba9619d1\",\r\n\"u_reason\":\"New Application\",\r\n\"u_risk\":\"4\",\r\n\"assignment_group\":\"eaf16520dbd58450f1024dc2ba9619d1\",\r\n\"short_description\":\"Prueba Creacion RLSE 2\",\r\n\"description\":\"Prueba Creacion RLSE 2\",\r\n\"u_justification\":\"Prueba Creacion RLSE 2\",\r\n\"u_implementation_plan\":\"Prueba Creacion RLSE 2\",\r\n\"u_preproduction_proposed_date\":\"2021-11-13 22:13:00\",\r\n\"u_start_date\":\"2021-11-13 22:14:00\",\r\n\"u_end_date\":\"2021-12-30 00:00:00\"\r\n}"
+						},
+						"url": {
+							"raw": "https://santander.service-now.com/api/now/v2/table/rm_release",
+							"protocol": "https",
+							"host": [
+								"santander",
+								"service-now",
+								"com"
+							],
+							"path": [
+								"api",
+								"now",
+								"v2",
+								"table",
+								"rm_release"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ADD RTSK",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "user_sgt_pipeline_rlse",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "user_sgt_pipeline_rlse#test",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"top_task\":\"RLSE0191738\",\r\n\"u_release\":\"RLSE0191738\",\r\n\"start_date\":\"2021-11-13 12:38:00\",\r\n\"end_date\":\"2021-12-30 12:38:00\",\r\n\"short_description\":\"test 2\",\r\n\"description\":\"test 2\",\r\n\"u_state_to_resolve\":\"Pre-Production\",\r\n\"type\":\"Other Deployment\",\r\n\"assignment_group\":\"SGT_IN_IM_ES_DevOps_Corporate\",\r\n\"order\":\"100\",\r\n\"u_technology\":\"Middleware\",\r\n\"u_version\":\"NA\",\r\n\"u_application\":\"Middleware (Workday)\"\r\n}"
+						},
+						"url": {
+							"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_task",
+							"protocol": "https",
+							"host": [
+								"santandertest",
+								"service-now",
+								"com"
+							],
+							"path": [
+								"api",
+								"now",
+								"v2",
+								"table",
+								"rm_task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ADD RTSK PRO",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "user_sgt_pipeline_rlse",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "user_sgt_pipeline_rlse#test",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"top_task\":\"RLSE0191738\",\r\n\"u_release\":\"RLSE0191738\",\r\n\"start_date\":\"2021-11-13 12:38:00\",\r\n\"end_date\":\"2021-12-30 12:38:00\",\r\n\"short_description\":\"test 2\",\r\n\"description\":\"test 2\",\r\n\"u_state_to_resolve\":\"Implement\",\r\n\"type\":\"Other Deployment\",\r\n\"assignment_group\":\"SGT_IN_IM_ES_DevOps_Corporate\",\r\n\"order\":\"100\",\r\n\"u_technology\":\"Middleware\",\r\n\"u_version\":\"NA\",\r\n\"u_application\":\"Middleware (Workday)\"\r\n}"
+						},
+						"url": {
+							"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_task",
+							"protocol": "https",
+							"host": [
+								"santandertest",
+								"service-now",
+								"com"
+							],
+							"path": [
+								"api",
+								"now",
+								"v2",
+								"table",
+								"rm_task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Move RLSE to CER",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "user_sgt_pipeline_rlse#test",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "user_sgt_pipeline_rlse",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"state\":\"2\",\r\n\"work_notes\":\"Se pasa la Release a Certificación\"\r\n}"
+						},
+						"url": {
+							"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_release/094ae48f878374d0361731973cbb35dc",
+							"protocol": "https",
+							"host": [
+								"santandertest",
+								"service-now",
+								"com"
+							],
+							"path": [
+								"api",
+								"now",
+								"v2",
+								"table",
+								"rm_release",
+								"094ae48f878374d0361731973cbb35dc"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Move RLSE to PRE",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "user_sgt_pipeline_rlse#test",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "user_sgt_pipeline_rlse",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"state\":\"14\",\r\n\"work_notes\":\"Se pasa la Release a Esperando Aceptación\"\r\n}"
+						},
+						"url": {
+							"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_release/094ae48f878374d0361731973cbb35dc",
+							"protocol": "https",
+							"host": [
+								"santandertest",
+								"service-now",
+								"com"
+							],
+							"path": [
+								"api",
+								"now",
+								"v2",
+								"table",
+								"rm_release",
+								"094ae48f878374d0361731973cbb35dc"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET Release Status",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_release?sysparm_fields=number,state,company,parent,cmdb_ci,u_requested_group,u_category,u_reason,sys_id,u_project_number,u_type,u_risk,priority,impact,u_gpdr_sox,u_emergency_tipology,u_platform,assignment_group,u_release_parent,u_change,short_description,description,u_certification_proposed_date,u_preproduction_proposed_date,u_start_date,u_end_date,work_start,work_end,u_close_code,close_notes&sysparm_display_value=all&sysparm_query=number=RLSE0191573",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_release"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "number,state,company,parent,cmdb_ci,u_requested_group,u_category,u_reason,sys_id,u_project_number,u_type,u_risk,priority,impact,u_gpdr_sox,u_emergency_tipology,u_platform,assignment_group,u_release_parent,u_change,short_description,description,u_certification_proposed_date,u_preproduction_proposed_date,u_start_date,u_end_date,work_start,work_end,u_close_code,close_notes"
+						},
+						{
+							"key": "sysparm_display_value",
+							"value": "all"
+						},
+						{
+							"key": "sysparm_query",
+							"value": "number=RLSE0191573"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Release Status PRO",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "bLO4dY#*#Vaj",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://santander.service-now.com/api/now/v2/table/rm_release?sysparm_fields=number,state,company,parent,cmdb_ci,u_requested_group,u_category,u_reason,sys_id,u_project_number,u_type,u_risk,priority,impact,u_gpdr_sox,u_emergency_tipology,u_platform,assignment_group,u_release_parent,u_change,short_description,description,u_certification_proposed_date,u_preproduction_proposed_date,u_start_date,u_end_date,work_start,work_end,u_close_code,close_notes&sysparm_display_value=all&sysparm_query=number=RLSE0290868",
+					"protocol": "https",
+					"host": [
+						"santander",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_release"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "number,state,company,parent,cmdb_ci,u_requested_group,u_category,u_reason,sys_id,u_project_number,u_type,u_risk,priority,impact,u_gpdr_sox,u_emergency_tipology,u_platform,assignment_group,u_release_parent,u_change,short_description,description,u_certification_proposed_date,u_preproduction_proposed_date,u_start_date,u_end_date,work_start,work_end,u_close_code,close_notes"
+						},
+						{
+							"key": "sysparm_display_value",
+							"value": "all"
+						},
+						{
+							"key": "sysparm_query",
+							"value": "number=RLSE0290868"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET sys_id Approver User PRO",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "bLO4dY#*#Vaj",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://santander.service-now.com/api/now/v2/table/rm_release?sysparm_fields=number,state,company,parent,cmdb_ci,u_requested_group,u_category,u_reason,sys_id,u_project_number,u_type,u_risk,priority,impact,u_gpdr_sox,u_emergency_tipology,u_platform,assignment_group,u_release_parent,u_change,short_description,description,u_certification_proposed_date,u_preproduction_proposed_date,u_start_date,u_end_date,work_start,work_end,u_close_code,close_notes&sysparm_display_value=all&sysparm_query=number=RLSE0290868",
+					"protocol": "https",
+					"host": [
+						"santander",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_release"
+					],
+					"query": [
+						{
+							"key": "sysparm_fields",
+							"value": "number,state,company,parent,cmdb_ci,u_requested_group,u_category,u_reason,sys_id,u_project_number,u_type,u_risk,priority,impact,u_gpdr_sox,u_emergency_tipology,u_platform,assignment_group,u_release_parent,u_change,short_description,description,u_certification_proposed_date,u_preproduction_proposed_date,u_start_date,u_end_date,work_start,work_end,u_close_code,close_notes"
+						},
+						{
+							"key": "sysparm_display_value",
+							"value": "all"
+						},
+						{
+							"key": "sysparm_query",
+							"value": "number=RLSE0290868"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET sys_id Approver User",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/sysapproval_approver?sysparm_query=sysapproval.number=RLSE0191573^approver.user_name=user_sgt_pipeline_rlse^state=requested",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"sysapproval_approver"
+					],
+					"query": [
+						{
+							"key": "sysparm_query",
+							"value": "sysapproval.number=RLSE0191573^approver.user_name=user_sgt_pipeline_rlse^state=requested"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Approve RLSE with user sys_id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"state\":\"approved\"\r\n}"
+				},
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/sysapproval_approver/daa0198187c338dc361731973cbb358d",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"sysapproval_approver",
+						"daa0198187c338dc361731973cbb358d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET All RTSKS",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_task?sysparm_display_value=all&sysparm_fields=number,top_task,company,start_date,end_date,u_state_to_resolve,sys_id,type,order,state,assignment_group,short_description&sysparm_query=top_task.number=RLSE0191573",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_task"
+					],
+					"query": [
+						{
+							"key": "sysparm_display_value",
+							"value": "all"
+						},
+						{
+							"key": "sysparm_fields",
+							"value": "number,top_task,company,start_date,end_date,u_state_to_resolve,sys_id,type,order,state,assignment_group,short_description"
+						},
+						{
+							"key": "sysparm_query",
+							"value": "top_task.number=RLSE0191573"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET One RTSK sys_id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_task?sysparm_display_value=all&sysparm_fields=number,top_task,company,cmdb_ci,start_date,end_date,u_state_to_resolve,type,order,state,sys_id,assignment_group,assigned_to,short_description,description,close_notes,u_gipih_reference,u_gipih_company_load,u_zip_ref,u_application,u_technology,u_version,business_service,u_technical_type,u_risk,u_software_delivery,u_deployment_description&sysparm_query=number=RTSK0971702",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_task"
+					],
+					"query": [
+						{
+							"key": "sysparm_display_value",
+							"value": "all"
+						},
+						{
+							"key": "sysparm_fields",
+							"value": "number,top_task,company,cmdb_ci,start_date,end_date,u_state_to_resolve,type,order,state,sys_id,assignment_group,assigned_to,short_description,description,close_notes,u_gipih_reference,u_gipih_company_load,u_zip_ref,u_application,u_technology,u_version,business_service,u_technical_type,u_risk,u_software_delivery,u_deployment_description"
+						},
+						{
+							"key": "sysparm_query",
+							"value": "number=RTSK0971702"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT State RTSK Closed",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"work_notes\":\"Desplegado\",\r\n\"state\":\"Closed Complete\",\r\n\"u_close_code\":\"Successful automatic\",\r\n\"close_notes\":\"Desplegado en PRE-STG\",\r\n\"assigned_to\":\"u4x7TAn4Aq@co-example.com\"\r\n}"
+				},
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_task/dbdeff6c87473418bc1d54673cbb3544",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_task",
+						"dbdeff6c87473418bc1d54673cbb3544"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT State RTSK Closed test task",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"work_notes\":\"Desplegado\",\r\n\"state\":\"Closed Complete\",\r\n\"u_close_code\":\"Successful automatic\",\r\n\"close_notes\":\"Desplegado en PRE-STG\",\r\n\"assigned_to\":\"u4x7TAn4Aq@co-example.com\"\r\n}"
+				},
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_task/dbdeff6c87473418bc1d54673cbb3544",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_task",
+						"dbdeff6c87473418bc1d54673cbb3544"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Pasar a Pruebas",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"state\":\"5\",\r\n\"work_notes\":\"Se pasa la Release a Pruebas\"\r\n}"
+				},
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_release/20ad7b2887073418bc1d54673cbb3566",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_release",
+						"20ad7b2887073418bc1d54673cbb3566"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Pasar a Evaluacion",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"state\":\"5\",\r\n\"work_notes\":\"Se pasa la Release a Pruebas\"\r\n}"
+				},
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_release/20ad7b2887073418bc1d54673cbb3566",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_release",
+						"20ad7b2887073418bc1d54673cbb3566"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Pasar a Implementación",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"state\":\"9\",\r\n\"work_notes\":\"Implementación\"\r\n}"
+				},
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_release/20ad7b2887073418bc1d54673cbb3566",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_release",
+						"20ad7b2887073418bc1d54673cbb3566"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET RTSK PRO sys_id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_task?sysparm_display_value=all&sysparm_fields=number,top_task,company,cmdb_ci,start_date,end_date,u_state_to_resolve,type,order,state,sys_id,assignment_group,assigned_to,short_description,description,close_notes,u_gipih_reference,u_gipih_company_load,u_zip_ref,u_application,u_technology,u_version,business_service,u_technical_type,u_risk,u_software_delivery,u_deployment_description&sysparm_query=number=RTSK0971807",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_task"
+					],
+					"query": [
+						{
+							"key": "sysparm_display_value",
+							"value": "all"
+						},
+						{
+							"key": "sysparm_fields",
+							"value": "number,top_task,company,cmdb_ci,start_date,end_date,u_state_to_resolve,type,order,state,sys_id,assignment_group,assigned_to,short_description,description,close_notes,u_gipih_reference,u_gipih_company_load,u_zip_ref,u_application,u_technology,u_version,business_service,u_technical_type,u_risk,u_software_delivery,u_deployment_description"
+						},
+						{
+							"key": "sysparm_query",
+							"value": "number=RTSK0971807"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT PRO RTSK Closed",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"work_notes\":\"Desplegado\",\r\n\"state\":\"Closed Complete\",\r\n\"u_close_code\":\"Successful automatic\",\r\n\"close_notes\":\"Desplegado en PRO\",\r\n\"assigned_to\":\"u4x7TAn4Aq@co-example.com\"\r\n}"
+				},
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_task/d1351e1187033c10fbbfed780cbb354b",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_task",
+						"d1351e1187033c10fbbfed780cbb354b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT PRO Revision",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "user_sgt_pipeline_rlse#test",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user_sgt_pipeline_rlse",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"state\":\"10\",\r\n\"work_notes\":\"Se pasa la Release a Revisión\",\r\n\"u_close_code\":\"Successful automatic\",\r\n\"close_notes\":\"Desplegado en PRO\"\r\n}"
+				},
+				"url": {
+					"raw": "https://santandertest.service-now.com/api/now/v2/table/rm_release/20ad7b2887073418bc1d54673cbb3566",
+					"protocol": "https",
+					"host": [
+						"santandertest",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"v2",
+						"table",
+						"rm_release",
+						"20ad7b2887073418bc1d54673cbb3566"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
