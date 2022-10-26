@@ -10,7 +10,7 @@ from datetime import datetime
 def log(message):
     print(str(datetime.now()) + ": " + message)
 
-def update_release(**release):
+def update_task(**release):
 
     response = None
     endpoint = release["sn_base"] + \
@@ -37,12 +37,12 @@ def update_release(**release):
 
     except Exception as e:
         response = {
-            "mensaje": "ERROR, no se pudo actualizar la release: " + str(e)}
-        log("ERROR, no se pudo actualizar la release: " + str(e))
+            "mensaje": "ERROR, no se pudo actualizar la task: " + str(e)}
+        log("ERROR, no se pudo actualizar la task: " + str(e))
 
     return response
 
-def create_release(**release):
+def create_task(**release):
 
     response = None
     endpoint = release["sn_base"] + release["sn_uri"]
@@ -67,8 +67,8 @@ def create_release(**release):
             )
 
     except Exception as e:
-        response = {"mensaje": "ERROR, no se pudo crear la release: " + str(e)}
-        log("ERROR, no se pudo crear la release: " + str(e))
+        response = {"mensaje": "ERROR, no se pudo crear la task: " + str(e)}
+        log("ERROR, no se pudo crear la task: " + str(e))
 
     return response
 
@@ -83,10 +83,10 @@ def validateOptions(module):
     #    return
 
     if module.params["state"] == "present" or module.params["state"] == "create":
-        return create_release(**module.params)
+        return create_task(**module.params)
 
     if module.params["state"] == "update":
-        return update_release(**module.params)
+        return update_task(**module.params)
 
 def main():
 
@@ -98,7 +98,7 @@ def main():
         "sn_user": {"required": False, "type": "str", "default": ""},
         "sn_pass": {"required": False, "type": "str", "default": "", "no_log": True},
         "sn_base": {"required": True, "type": "str"},
-        "sn_uri": {"required": False, "type": "str", "default": "/api/now/v2/table/rm_release"},
+        "sn_uri": {"required": False, "type": "str", "default": "/api/now/v2/table/rm_task"},
         "data": {"required": True, "type": "dict", "default": None},
         "authType": {"required": False, "type": "str", "default": "Basic"},
         "params": {"required": False, "type": "dict", "default": None},
