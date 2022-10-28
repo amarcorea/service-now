@@ -1,0 +1,19 @@
+---
+- hosts: localhost
+  gather_facts: False
+  vars:
+    files:
+      - BRA_176_20221014_1555_CS_EVENT_PROCESSING_123_ZIPPER_DELTA_GENERIC.DMP
+      - MEX_123_20221014_1555_cS_EVENT_PROCESSING_123_ZIPPER_DELTA_1999_GENERIC.DMP
+      - 143_2343_CSC_EVENT_123.DMP
+      - roe_205_405_555_TF.DMP
+      - MEX_205_405_1623_555_27102022_TF.DMP
+      - roe_205_405_555_.DMP
+      - PGN_20221027_11-55_205_405_555_CS_EVENTS.DMP
+
+  tasks:
+
+    - name: Printing
+      debug:
+        msg: "{{ item | regex_search('^([A-Z]|\\d).*?(_[A-Z]|.DMP|\\d{5,})', ignorecase=True) | regex_findall('(?<=_)(\\d{1,4})(?=_)') | join(' ') }}"
+      with_items: "{{ files }}"
