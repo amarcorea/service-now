@@ -10,10 +10,25 @@
       - MEX_205_405_1623_555_27102022_TF.DMP
       - roe_205_405_555_.DMP
       - PGN_20221027_11-55_205_405_555_CS_EVENTS.DMP
+  vars_files:
+    - vars/accesos.yml
 
   tasks:
 
     - name: Printing
       debug:
-        msg: "{{ item | regex_search('^([A-Z]|\\d).*?(_[A-Z]|.DMP|\\d{5,})', ignorecase=True) | regex_findall('(?<=_)(\\d{1,4})(?=_)') | join(' ') }}"
+        msg: "{{ item | regex_search('^([A-Z]|\\d).*?(_[A-Z]|.DMP|\\d{5,})', ignorecase=True) | regex_replace('\\d{5,}') | regex_findall('\\d{1,4}') | join(' ') }}"
       with_items: "{{ files }}"
+
+    - name: Get Release
+      uri:
+        url: https://santandertest.service-now.com/api/now/v2/table/rm_release?sysparm_query=number=RLSE0595100
+        method: GET
+        user: "{{ sn_user }}"
+        password: "{{ sn_pass }}"
+      register: output_release
+
+    - name: Printing release
+      debug:
+        var=output_release.json.result
+        

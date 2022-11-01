@@ -187,7 +187,7 @@ def standalone():
         state="info_release",
         sn_user="user_sgt_pipeline_rlse",
         sn_pass="user_sgt_pipeline_rlse#Test1",
-        sn_base="https://santandertest.service-now.com",
+        sn_base="https://santandertest1.service-now.com",
         sn_uri="/api/now/v2/table/rm_release",
         release="RLSE05951001",
         timeout=30

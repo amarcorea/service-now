@@ -4,13 +4,17 @@
     - vars/accesos.yml
 
   tasks:
+
+    - name: Get Version
+      debug: 
+        msg: "{{ ansible_version }}"
   
     - name: Get release
       onefcc_snow_release:
         state: info_release
         sn_user: "{{ sn_user }}"
         sn_pass: "{{ sn_pass }}"
-        sn_base: https://santandertest.service-now.com
+        sn_base: https://santandertest1.service-now.com
         release: RLSE0595100
       register: output_release
 
