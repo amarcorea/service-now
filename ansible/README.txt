@@ -16,7 +16,7 @@ Funciones:
         to_certification
         approve
         to_preprod
-        info_release
+        info
             - release
         
 
@@ -64,7 +64,6 @@ Funciones:
         - info
 
         present, create, new:
-            - release
             - start_date
             - end_date
             - short_description
@@ -85,7 +84,7 @@ Funciones:
             - work_notes
             - assigned_to
         
-        inprogress:
+        in_progress:
             - task
             - status *
             - close_code *
@@ -107,7 +106,7 @@ Funciones:
             - close_notes *
             - work_notes
 
-        info_task:
+        info:
             - task *
  
 
