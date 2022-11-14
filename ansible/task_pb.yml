@@ -1,0 +1,59 @@
+- hosts: localhost
+  gather_facts: False
+  vars_files:
+    - variables/common.yml
+  vars:
+    mensaje:
+      - Despliegue de TF
+      - Reinicio de TF
+
+  tasks:
+  
+    - name: Create task to Release
+      onefcc_snow_task:
+        state: present
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
+        #release: RLSE0595100
+        release: RLSE0595805
+        start_date: "2022-11-19 08:30:00"
+        end_date: "2022-11-19 09:30:00"
+        short_description: Realizar el {{ item }}
+        description: |
+          Realizar el {{ item }}
+
+          Servidores afectados:
+            cos0005.dominio.com
+            cos0006.dominio.com
+        state_resolve: Pre-Production
+        type: Other Deployment
+        group: SGT_IN_SY_ES_DEVSECOPS
+        order: 100
+        application: Middleware (Workday)
+        technology: Middleware
+        version: NA
+      register: output_task
+      tags: create
+      with_items: "{{ mensaje }}"
+
+    - name: Get Task
+      onefcc_snow_task:
+        state: info
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
+        task: "{{ output_task.message.number }}"
+      register: output_task
+      tags: consulta
+
+    - name: Printing task
+      debug:
+        var=output_task.message.number
+      tags: 
+        - consulta
+        - create
+    
+
+
+        

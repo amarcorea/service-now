@@ -1,26 +1,22 @@
 - hosts: localhost
   gather_facts: False
   vars_files:
-    - vars/accesos.yml
+    - variables/common.yml
 
   tasks:
-
-    - name: Get Version
-      debug: 
-        msg: "{{ ansible_version }}"
   
-    - name: Get release
+    - name: Get task
       onefcc_snow_release:
         state: info_release
-        sn_user: "{{ sn_user }}"
-        sn_pass: "{{ sn_pass }}"
-        sn_base: https://santandertest1.service-now.com
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
         release: RLSE0595100
       register: output_release
 
     - name: Printing release
       debug:
-        var=output_release
+        msg: "SysID {{ output_release.message.sys_id }}"
     
 
 

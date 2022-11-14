@@ -1,0 +1,4 @@
+snow_specs:
+  pre:
+    user: "user_sgt_pipeline_rlse"
+    pass: "user_sgt_pipeline_rlse#Test1"
