@@ -1,0 +1,94 @@
+- hosts: localhost
+  gather_facts: False
+  vars_files:
+    - variables/common.yml
+  vars:
+    release: "RLSE0596291"
+
+  tasks:
+  
+    - name: Get Release
+      onefcc_snow_release:
+        state: info
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
+        release: "{{ release }}"
+      register: output_release
+      tags: info
+
+    - name: Create Release
+      onefcc_snow_release:
+        state: present
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
+        parent: PDCT0029473
+        group: SGT_IN_SY_ES_NUEVAS_TECNOLOG
+        reason: New Version/Evolutive
+        risk: 4
+        short_description: Ansible, reinicio de PGN PRE
+        description: |
+          Reinicio de los servidores 
+          pre00001.dominio.com
+          pre00002.dominio.com
+        justification: Reinicio programado
+        implementation_plan: Reinicio por incidencia
+        preproduction_proposed_date: "2022-10-25 12:00:00"
+        start_date: "2022-11-26 12:00:00"
+        end_date: "2022-11-26 13:00:00"
+        backout_plan: N/A
+        risk_and_impact: Analize in the SW Deployment
+        test_plan: |
+          Define in the SW Deployment.
+          Please, identify the PRO testing responsible
+
+      register: output_release
+      tags: create
+
+    - name: To Certification Release
+      onefcc_snow_release:
+        state: to_certification
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
+        release: "{{ release }}"
+        work_notes: "A Certificación de forma automática {{ lookup('pipe','date +%Y-%m-%d@%H:%M:%S') }}"
+      register: output_release
+      tags: certification
+
+    - name: To Waiting Release
+      onefcc_snow_release:
+        state: to_waiting
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
+        release: "{{ release }}"
+        work_notes: "A Waiting For Accept de forma automática {{ lookup('pipe','date +%Y-%m-%d@%H:%M:%S') }}"
+      register: output_release
+      tags: waiting
+
+    - name: Approve Release
+      onefcc_snow_release:
+        state: approve
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
+        release: "{{ release }}"
+        approver: "{{ snow_specs.pre.user }}"
+      register: output_release
+      tags: approve
+
+    - name: Printing release
+      debug:
+        var=output_release
+      tags: 
+        - create
+        - info
+        - certification
+        - waiting
+        - approve
+    
+
+
+        

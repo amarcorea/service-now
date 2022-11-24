@@ -73,12 +73,12 @@ from datetime import datetime
 ###    sample: 'goodbye'
 ###'''
 
+#ALLOW_CLOSE_CODES = ("Successful", "Successful automatic", "Successful with issues", "Unsuccessful", "Cancelled", "Rejected")
 
 def log(message):
     print(str(datetime.now()) + ": " + message)
 
-
-def info_release(release_number, **module_args):
+def info(release_number, **module_args):
     response = None
     endpoint = module_args["sn_base"] + module_args["sn_uri"] 
     params={"sysparm_query": "number="+str(release_number) }
@@ -92,113 +92,303 @@ def info_release(release_number, **module_args):
         )
 
     except Exception as e:
-        response = {"mensaje": "ERROR, no se pudo crear la release: " + str(e)}
+        response = {"mensaje": "ERROR, no se pudo obtener información de la release "+str(release_number)+": " + str(e)}
         #log("ERROR, no se pudo crear la release: " + str(e))
 
     return response
 
+def info_approver(release_number, approver_name, **module_args):
+    response = None
+    endpoint = module_args["sn_base"] + module_args["sn_uri"] 
+    params={
+        "sysparm_query": "sysapproval.number="+str(release_number)+"^approver.user_name="+str(approver_name),
+        "sysparm_fields": "sys_id,state"
+    }
+
+    try:
+        response = requests.get(
+            url=endpoint,
+            auth=(module_args["sn_user"], module_args["sn_pass"]),
+            params=params,
+            timeout=module_args["timeout"]
+        )
+
+    except Exception as e:
+        response = {"mensaje": "ERROR, no se pudo obtener información del approver "+str(approver_name)+" de la release "+str(release_number)+": " + str(e)}
+        #log("ERROR, no se pudo crear la release: " + str(e))
+
+    return response
+
+def create(**module_args):
+    response = None
+    endpoint = module_args["sn_base"] + module_args["sn_uri"] 
+    data={
+        "parent":                           module_args["parent"],
+        "u_requested_group":                module_args["group"],
+        "u_reason":                         module_args["reason"],
+        "u_risk":                           module_args["risk"],
+        "short_description":                module_args["short_description"],
+        "description":                      module_args["description"],
+        "u_justification":                  module_args["justification"],
+        "u_implementation_plan":            module_args["implementation_plan"],
+        "u_preproduction_proposed_date":    module_args["preproduction_proposed_date"],
+        "u_start_date":                     module_args["start_date"],
+        "u_end_date":                       module_args["end_date"],
+        "u_backout_plan":                   module_args["backout_plan"],
+        "u_risk_and_impact_analysis":       module_args["risk_and_impact"],
+        "u_test_plan":                      module_args["test_plan"]
+        
+    }
+
+    try:
+        response = requests.post(
+            url=endpoint,
+            auth=(module_args["sn_user"], module_args["sn_pass"]),
+            #params=params,
+            data=json.dumps(data),
+            timeout=module_args["timeout"]
+        )
+
+    except Exception as e:
+        response = {"mensaje": "ERROR, no se pudo crear la release " + str(e)}
+        #log("ERROR, no se pudo crear la release: " + str(e))
+
+    return response
+
+def to_certification(release_number, release_id, **module_args):
+    response = None
+    endpoint = module_args["sn_base"] + module_args["sn_uri"] + "/" + release_id
+    data={
+        "state": module_args["status"]
+    }
+
+    if "work_notes" in module_args:
+        data["work_notes"] = module_args["work_notes"]
+
+    try:
+        response = requests.put(
+            url=endpoint,
+            auth=(module_args["sn_user"], module_args["sn_pass"]),
+            data=json.dumps(data),
+            timeout=module_args["timeout"]
+        )
+
+    except Exception as e:
+        response = {"mensaje": "ERROR, no se pudo actualizar la release "+str(release_number)+": " + str(e)}
+
+    return response
+
+def to_waiting(release_number, release_id, **module_args):
+    response = None
+    endpoint = module_args["sn_base"] + module_args["sn_uri"] + "/" + release_id
+    data={
+        "state": module_args["status"]
+    }
+
+    if "work_notes" in module_args:
+        data["work_notes"] = module_args["work_notes"]
+
+    try:
+        response = requests.put(
+            url=endpoint,
+            auth=(module_args["sn_user"], module_args["sn_pass"]),
+            data=json.dumps(data),
+            timeout=module_args["timeout"]
+        )
+
+    except Exception as e:
+        response = {"mensaje": "ERROR, no se pudo cerrar la task "+str(release_number)+": " + str(e)}
+
+    return response
+
+def to_testing(release_number, release_id, **module_args):
+    response = None
+    endpoint = module_args["sn_base"] + module_args["sn_uri"] + "/" + release_id
+    data={
+        "state": module_args["status"]
+    }
+
+    if "work_notes" in module_args:
+        data["work_notes"] = module_args["work_notes"]
+
+    try:
+        response = requests.put(
+            url=endpoint,
+            auth=(module_args["sn_user"], module_args["sn_pass"]),
+            data=json.dumps(data),
+            timeout=module_args["timeout"]
+        )
+
+    except Exception as e:
+        response = {"mensaje": "ERROR, no se pudo cerrar la task "+str(release_number)+": " + str(e)}
+
+    return response
+
+def approve(approve_id, **module_args):
+    response = None
+    endpoint = module_args["sn_base"] + module_args["sn_uri"] + "/" + approve_id
+    data={
+        "state": module_args["status"]
+    }
+
+    if "work_notes" in module_args:
+        data["work_notes"] = module_args["work_notes"]
+
+    try:
+        response = requests.put(
+            url=endpoint,
+            auth=(module_args["sn_user"], module_args["sn_pass"]),
+            data=json.dumps(data),
+            timeout=module_args["timeout"]
+        )
+
+    except Exception as e:
+        response = {"mensaje": "ERROR, no se pudo cerrar la task "+str(release_number)+": " + str(e)}
+
+    return response
 
 def validateOptions(module):
 
-    if module.params["state"] == "info_release":
-        return info_release(module.params["release"],**module.params)
+    if module.params["state"] == "info":
+        return info(module.params["release"], **module.params)
+    
+    if module.params["state"] == "present" or module.params["state"] == "create":
+        return create(**module.params)
 
+    if module.params["state"] == "to_certification":
+        module.params["status"] = "Certification"
+        response = info(module.params["release"], **module.params).json()
+        release_id = ""
+        
+        if len(response["result"]) > 0:
+            release_id = response["result"][0]["sys_id"]
+        
+        return to_waiting(module.params["release"], release_id,  **module.params)
+    
+    if module.params["state"] == "to_waiting":
+        module.params["status"] = "Waiting Accept"
+        response = info(module.params["release"], **module.params).json()
+        release_id = ""
+        
+        if len(response["result"]) > 0:
+            release_id = response["result"][0]["sys_id"]
+        
+        return to_certification(module.params["release"], release_id,  **module.params)
+    
+    if module.params["state"] == "to_testing":
+        module.params["status"] = "Testing"
+        response = info(module.params["release"], **module.params).json()
+        release_id = ""
+        
+        if len(response["result"]) > 0:
+            release_id = response["result"][0]["sys_id"]
+        
+        return to_certification(module.params["release"], release_id,  **module.params)
+
+    if module.params["state"] == "approve":
+        module.params["status"] = "approved"
+        module.params["sn_uri"] = "/api/now/v2/table/sysapproval_approver"
+        response = info_approver(module.params["release"], module.params["approver"], **module.params).json()
+        approver_id = ""
+        
+        if len(response["result"]) > 0:
+            approver_id = response["result"][0]["sys_id"]
+            state = response["result"][0]["state"]
+            
+        
+        return approve(approver_id, **module.params)
 
 def run_module():
-    # define available arguments/parameters a user can pass to the module
-
+    
     module_args = {
         "state": {
             "default": "present",
-            "choices": ["present", "to_certification", "approve", "to_preprod", "info_release"]
+            "choices": ["present", "create", "to_certification", "to_waiting","approve", "to_preprod", "to_testing", "info"]
         },
         "sn_user": {"required": False, "type": "str"},
         "sn_pass": {"required": False, "type": "str", "no_log": True},
         "sn_base": {"required": True, "type": "str"},
         "sn_uri": {"required": False, "type": "str", "default": "/api/now/v2/table/rm_release"},
         "timeout": {"required": False, "type": "int", "default": 300},
-        "release": {"required": False, "type": "str"}
-        # "data": {"required": True, "type": "dict", "default": None},
-        # "authType": {"required": False, "type": "str", "default": "Basic"},
-        # "params": {"required": False, "type": "dict", "default": None},
-        # "headers": {"required": False, "type": "dict", "default": None},
+        
+        #Para certification, waiting, approve, testing
+        "release":{ "type": "str" },
 
+        #Para creación
+        "parent": {"type": "str"},
+        "group":{ "type": "str" },
+        "reason":{ "type": "str" },
+        "risk":{ "type": "str", "default": "Low" },
+        "short_description":{ "type": "str" },
+        "description":{ "type": "str" },
+        "justification": { "type": "str" },
+        "implementation_plan": { "type": "str" },
+        "preproduction_proposed_date": { "type": "str" },
+        "start_date":{ "type": "str" },
+        "end_date":{ "type": "str" },
+        "backout_plan":{ "type": "str" },
+        "risk_and_impact":{ "type": "str" },
+        "test_plan":{ "type": "str" },
+        "work_notes":{"type":"str"},
+        
+        #Para aprobar
+        "approver": {"type":"str"},
 
     }
 
-    # module_args = dict(
-    #    name=dict(type='str', required=True),
-    #    new=dict(type='bool', required=False, default=False)
-    # )
-
-    # seed the result dict in the object
-    # we primarily care about changed and state
-    # changed is if this module effectively modified the target
-    # state will include any data that you want your module to pass back
-    # for consumption, for example, in a subsequent task
     result = dict(
         changed=False,
         original_message="",
         message=""
     )
 
-    # the AnsibleModule object will be our abstraction working with Ansible
-    # this includes instantiation, a couple of common attr would be the
-    # args/params passed to the execution, as well as if the module
-    # supports check mode
     module = AnsibleModule(
         argument_spec=module_args,
-        supports_check_mode=False
+        supports_check_mode=False,
+        required_if=[
+            ('state', 'info', ('release', 'sn_user', 'sn_pass','sn_base'), False),
+        ],
+        required_together=[
+            ('sn_user', 'sn_pass','sn_base'),
+        ],
     )
 
-    # if the user is working with this module in only check mode we do not
-    # want to make any changes to the environment, just return the current
-    # state with no modifications
     if module.check_mode:
         module.exit_json(**result)
     else:
         response = validateOptions(module)
 
-    # manipulate or modify the state as needed (this is going to be the
-    # part where your module will do what it needs to do)
     result["message"] = json.loads(response.text)
-    if response.status_code == 200:
+    #result["message"] = json.loads(response.json())
 
-        #TODO Validar respuesta para regresar elemento
-        if len(response.json()['result']) > 0:
-            result['message'] = response.json()["result"][0]
-            result['changed'] = True
+    if response.status_code == 200 or response.status_code == 201:
+
+        #Sólo consulta
+        if module.params["state"] == "info":
+            if len(response.json()['result']) > 0:
+                result['message'] = response.json()["result"][0]
+                result['changed'] = True
+            else:
+                result['message'] = "La release "+module.params["release"]+" no existe!"
+                result['changed'] = False
+        #Aplica para otras acciones
         else:
-            result['message'] = "La release "+module.params["release"]+" no existe en "+module.params["sn_base"]
-            result['changed'] = False
+            if "number" in response.json()["result"] or "sys_id" in response.json()["result"]:
+                result['message'] = response.json()["result"]
+                result['changed'] = True
+            else:
+                result['message'] = "No se pudo obtener la info de la release: "+module.params["release"]
+                result['changed'] = False
+                module.fail_json(msg="Error general en la respuesta", **result)
             
         module.exit_json(**result)
 
     else:
-        module.fail_json(msg="Error en la respuesta", **result)
+        module.fail_json(msg="Error general en la respuesta", **result)
 
 
 def main():
     run_module()
 
-
-def standalone():
-    module_args=dict(
-        state="info_release",
-        sn_user="user_sgt_pipeline_rlse",
-        sn_pass="user_sgt_pipeline_rlse#Test1",
-        sn_base="https://santandertest1.service-now.com",
-        sn_uri="/api/now/v2/table/rm_release",
-        release="RLSE05951001",
-        timeout=30
-    )
-    
-    response = info_release(module_args["release"],**module_args)
-
-    response_item = json.loads(response.text)
-    print("Code: "+str(response.status_code))
-    print("Len : "+str(len(response.json()['result'])))
-
 if __name__ == '__main__':
     main()
-    #standalone()

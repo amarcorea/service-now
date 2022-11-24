@@ -6,6 +6,8 @@
     mensaje:
       - Despliegue de TF
       - Reinicio de TF
+    task: RTSK2253318
+    release: RLSE0595805
 
   tasks:
   
@@ -16,16 +18,16 @@
         sn_pass: "{{ snow_specs.pre.pass }}"
         sn_base: https://santandertest.service-now.com
         #release: RLSE0595100
-        release: RLSE0595805
-        start_date: "2022-11-19 08:30:00"
-        end_date: "2022-11-19 09:30:00"
+        release: "{{ release }}"
+        start_date: "2022-11-26 13:10:00"
+        end_date: "2022-11-26 13:40:00"
         short_description: Realizar el {{ item }}
         description: |
           Realizar el {{ item }}
 
           Servidores afectados:
-            cos0005.dominio.com
-            cos0006.dominio.com
+            pre00001.dominio.com
+            pre00002.dominio.com
         state_resolve: Pre-Production
         type: Other Deployment
         group: SGT_IN_SY_ES_DEVSECOPS
@@ -36,6 +38,41 @@
       register: output_task
       tags: create
       with_items: "{{ mensaje }}"
+    
+    - name: Set Work In Progress Task
+      onefcc_snow_task:
+        state: in_progress
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
+        task: "{{ task }}"
+        assigned_to: "user_sgt_pipeline_rlse"
+        work_notes: "Work in Progress desde ansible {{ lookup('pipe','date +%Y-%m-%d@%H:%M:%S') }}"
+      register: output_task
+      tags: 
+        - assigned
+        - assigned_and_close
+
+    - pause: seconds=5
+      tags: 
+        - close
+        - assigned
+
+    - name: Set Closed Complete Task
+      onefcc_snow_task:
+        state: closed
+        sn_user: "{{ snow_specs.pre.user }}"
+        sn_pass: "{{ snow_specs.pre.pass }}"
+        sn_base: https://santandertest.service-now.com
+        task: "{{ task }}"
+        assigned_to: "user_sgt_pipeline_rlse"
+        close_code: Successful automatic
+        close_notes: Actividad ejecutada de forma automática
+        work_notes: "Cerrado desde ansible {{ lookup('pipe','date +%Y-%m-%d@%H:%M:%S') }}"
+      register: output_task
+      tags: 
+        - close
+        - assigned_and_close
 
     - name: Get Task
       onefcc_snow_task:
@@ -43,16 +80,19 @@
         sn_user: "{{ snow_specs.pre.user }}"
         sn_pass: "{{ snow_specs.pre.pass }}"
         sn_base: https://santandertest.service-now.com
-        task: "{{ output_task.message.number }}"
+        task: "{{ task }}"
       register: output_task
-      tags: consulta
+      tags: info
 
     - name: Printing task
       debug:
-        var=output_task.message.number
+        var=output_task
       tags: 
-        - consulta
+        - info
         - create
+        - assigned
+        - close
+        - assigned_and_close
     
 
 

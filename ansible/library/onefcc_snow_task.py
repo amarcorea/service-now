@@ -73,6 +73,7 @@ from datetime import datetime
 ###    sample: 'goodbye'
 ###'''
 
+ALLOW_CLOSE_CODES = ("Successful", "Successful automatic", "Successful with issues", "Unsuccessful", "Cancelled", "Rejected")
 
 def log(message):
     print(str(datetime.now()) + ": " + message)
@@ -96,7 +97,6 @@ def info(task_number, **module_args):
         #log("ERROR, no se pudo crear la release: " + str(e))
 
     return response
-
 
 def create(release_number, **module_args):
     response = None
@@ -132,6 +132,57 @@ def create(release_number, **module_args):
 
     return response
 
+def update_inprogress(task_number, task_id, **module_args):
+    response = None
+    endpoint = module_args["sn_base"] + module_args["sn_uri"] + "/" + task_id
+    data={
+        "state": module_args["status"],
+        "assigned_to": module_args["assigned_to"]
+    }
+
+    if "work_notes" in module_args:
+        data["work_notes"] = module_args["work_notes"]
+
+    try:
+        response = requests.put(
+            url=endpoint,
+            auth=(module_args["sn_user"], module_args["sn_pass"]),
+            data=json.dumps(data),
+            timeout=module_args["timeout"]
+        )
+
+    except Exception as e:
+        response = {"mensaje": "ERROR, no se pudo actualizar la task "+str(task_number)+": " + str(e)}
+        #log("ERROR, no se pudo crear la release: " + str(e))
+
+    return response
+
+def update_closed(task_number, task_id, **module_args):
+    response = None
+    endpoint = module_args["sn_base"] + module_args["sn_uri"] + "/" + task_id
+    data={
+        "state": module_args["status"],
+        "u_close_code": module_args["close_code"],
+        "close_notes": module_args["close_notes"],
+        #"assigned_to": module_args["assigned_to"]
+    }
+
+    if "work_notes" in module_args:
+        data["work_notes"] = module_args["work_notes"]
+
+    try:
+        response = requests.put(
+            url=endpoint,
+            auth=(module_args["sn_user"], module_args["sn_pass"]),
+            data=json.dumps(data),
+            timeout=module_args["timeout"]
+        )
+
+    except Exception as e:
+        response = {"mensaje": "ERROR, no se pudo cerrar la task "+str(task_number)+": " + str(e)}
+        #log("ERROR, no se pudo crear la release: " + str(e))
+
+    return response
 
 def validateOptions(module):
 
@@ -141,20 +192,46 @@ def validateOptions(module):
     if module.params["state"] == "present" or module.params["state"] == "create":
         return create(module.params["release"], **module.params)
 
+    if module.params["state"] == "in_progress":
+        module.params["status"] = "Work in Progress"
+        response = info(module.params["task"], **module.params).json()
+        task_id = ""
+        
+        if len(response["result"]) > 0:
+            task_id = response["result"][0]["sys_id"]
+        
+        return update_inprogress(module.params["task"], task_id,  **module.params)
+    
+    if module.params["state"] == "closed":
+
+        module.params["status"] = "Closed Complete"
+
+        if module.params["close_code"] not in ALLOW_CLOSE_CODES:
+            return {"result": {"mensaje":"El parámetro close_code no cumple con el catálogo!" } }
+
+        response = info(module.params["task"], **module.params).json()
+        task_id = ""
+        
+        if len(response["result"]) > 0:
+            task_id = response["result"][0]["sys_id"]
+        
+        return update_closed(module.params["task"], task_id,  **module.params)
 
 def run_module():
-    # define available arguments/parameters a user can pass to the module
-
+    
     module_args = {
         "state": {
             "default": "present",
-            "choices": ["present", "create", "to_certification", "approve", "to_preprod", "info"]
+            "choices": ["present", "create", "closed", "in_progress", "skipped", "incomplete", "info"]
         },
         "sn_user": {"required": False, "type": "str"},
         "sn_pass": {"required": False, "type": "str", "no_log": True},
         "sn_base": {"required": True, "type": "str"},
         "sn_uri": {"required": False, "type": "str", "default": "/api/now/v2/table/rm_task"},
         "timeout": {"required": False, "type": "int", "default": 300},
+
+        #Para info, work in progress, complete task
+        
         "task": {"type": "str"},
         #Para creación
         "release":{ "type": "str" },
@@ -168,49 +245,41 @@ def run_module():
         "order":{ "type": "str" },
         "application":{ "type": "str" },
         "technology":{ "type": "str" },
-        "version":{ "type": "str" }
+        "version":{ "type": "str" },
+        
+        #Para update, work in progress, complete task
+        "assigned_to":{"type":"str"},
+        "work_notes":{"type":"str"},
+        "close_code":{"type":"str"},
+        "close_notes":{"type":"str"}
 
     }
 
-    # module_args = dict(
-    #    name=dict(type='str', required=True),
-    #    new=dict(type='bool', required=False, default=False)
-    # )
-
-    # seed the result dict in the object
-    # we primarily care about changed and state
-    # changed is if this module effectively modified the target
-    # state will include any data that you want your module to pass back
-    # for consumption, for example, in a subsequent task
     result = dict(
         changed=False,
         original_message="",
         message=""
     )
 
-    # the AnsibleModule object will be our abstraction working with Ansible
-    # this includes instantiation, a couple of common attr would be the
-    # args/params passed to the execution, as well as if the module
-    # supports check mode
     module = AnsibleModule(
         argument_spec=module_args,
-        supports_check_mode=False
+        supports_check_mode=False,
+        required_if=[
+            ('state', 'info', ('task', 'sn_user', 'sn_pass','sn_base') ),
+            ('state', 'present', ('release', 'start_date', 'end_date', 'short_description', 'state_resolve', 'type', 'application' ,'group', 'description', 'technology', 'sn_user', 'sn_pass','sn_base'), False),
+        ]
     )
 
-    # if the user is working with this module in only check mode we do not
-    # want to make any changes to the environment, just return the current
-    # state with no modifications
     if module.check_mode:
         module.exit_json(**result)
     else:
         response = validateOptions(module)
 
-    # manipulate or modify the state as needed (this is going to be the
-    # part where your module will do what it needs to do)
     result["message"] = json.loads(response.text)
+    #result["message"] = json.loads(response.json())
+
     if response.status_code == 200 or response.status_code == 201:
 
-        #TODO Validar respuesta para regresar elemento
         #Sólo consulta
         if module.params["state"] == "info":
             if len(response.json()['result']) > 0:
@@ -232,31 +301,11 @@ def run_module():
         module.exit_json(**result)
 
     else:
-        module.fail_json(msg="Error en la respuesta", **result)
+        module.fail_json(msg="Error general en la respuesta",**result)
 
 
 def main():
     run_module()
 
-
-def standalone():
-    module_args=dict(
-        state="info",
-        sn_user="user_sgt_pipeline_rlse",
-        sn_pass="user_sgt_pipeline_rlse#Test1",
-        sn_base="https://santandertest.service-now.com",
-        sn_uri="/api/now/v2/table/rm_task",
-        task="RTSK2253302",
-        timeout=30
-    )
-    
-    response = info(module_args["task"],**module_args)
-    task = json.loads(response.text)
-    
-    print("Code: "+str(response.status_code))
-    print("Len : "+str(len(response.json()['result'])))
-    print("Len : "+str( "number" in response.json()["result"][0]))
-
 if __name__ == '__main__':
     main()
-    #standalone()
