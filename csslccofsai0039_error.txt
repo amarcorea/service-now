@@ -1,0 +1,1412 @@
+WARNING: 14-Dec-2023 10:31:10: Matching:Record cluster "Start End Name Tokens"."INVES" will generate more than 10,000 comparisons (number of comparisons 11,516) - skipping
+WARNING: 14-Dec-2023 10:31:22: Matching:Record cluster "Name Tokens"."INVESTMENT" will generate more than 5,000 comparisons (number of comparisons 6,210) - skipping
+WARNING: 14-Dec-2023 11:49:09: Matching:Record cluster "Start End Name Tokens"."IONAL" will generate more than 10,000 comparisons (number of comparisons 10,516) - skipping
+WARNING: 14-Dec-2023 11:51:38: Matching:Record cluster "Start End Name Tokens"."INVES" will generate more than 10,000 comparisons (number of comparisons 11,516) - skipping
+WARNING: 14-Dec-2023 11:52:10: Matching:Record cluster "Name Tokens"."INVESTMENT" will generate more than 5,000 comparisons (number of comparisons 6,210) - skipping
+WARNING: 14-Dec-2023 11:55:04: Matching:Record cluster "Start End Name Tokens"."INVES" will generate more than 10,000 comparisons (number of comparisons 11,516) - skipping
+WARNING: 14-Dec-2023 11:55:12: Matching:Record cluster "Name Tokens"."INVESTMENT" will generate more than 5,000 comparisons (number of comparisons 6,210) - skipping
+WARNING: 14-Dec-2023 11:56:36: Matching:Record cluster "Start End Name Tokens"."ATION" will generate more than 10,000 comparisons (number of comparisons 14,013) - skipping
+WARNING: 14-Dec-2023 12:06:19: Matching:Record cluster "Given Names"."" will generate more than 5,000 comparisons (number of comparisons 1,475,079) - skipping
+WARNING: 14-Dec-2023 12:14:12: Matching:Record cluster "Given Names"."" will generate more than 5,000 comparisons (number of comparisons 1,475,079) - skipping
+WARNING: 14-Dec-2023 12:32:40: Matching:Record cluster "Given Names"."" will generate more than 5,000 comparisons (number of comparisons 1,475,079) - skipping
+WARNING: 14-Dec-2023 12:51:01: Matching:Record cluster "Given Names"."" will generate more than 5,000 comparisons (number of comparisons 1,475,079) - skipping
+INFO: 14-Dec-2023 13:08:54: [EDQ-06918] [job: PART 3 - Real-time Screening:2243][exid: 125][runlabel: CS-RealTime][ch1][PROCESS Entity Real-time Screening:1869] : finished execution in 171597.07
+INFO: 14-Dec-2023 13:08:58: [EDQ-06918] [job: PART 3 - Real-time Screening:2243][exid: 125][runlabel: CS-RealTime][ch0][PROCESS Individual Real-time Screening:1868] : finished execution in 171600.55
+INFO: 14-Dec-2023 13:09:58: [EDQ-00309] AutoRun: Executing file: /ofsaa/infra/user_projects/domains/edq_domain/config/fmwconfig/edq/oedq.local.home/autorun/backup.xml
+INFO: 14-Dec-2023 13:11:48: [EDQ-00315] AutoRun: Package export complete.
+SEVERE: 14-Dec-2023 13:16:01: [EDQ-05202] Bean at edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=readers,name6=IndividualScreen_BKP already registered
+SEVERE: 14-Dec-2023 13:16:01: [EDQ-05202] Bean at edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=writers,name6=IndividualScreen_BKP already registered
+SEVERE: 14-Dec-2023 13:16:01: [EDQ-05202] Bean at edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=readers,name6=EntityScreen_BKP already registered
+SEVERE: 14-Dec-2023 13:16:01: [EDQ-05202] Bean at edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=writers,name6=EntityScreen_BKP already registered
+SEVERE: 14-Dec-2023 13:16:01: [EDQ-05202] Bean at edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=readers,name6=EntityScreen already registered
+SEVERE: 14-Dec-2023 13:16:01: [EDQ-05202] Bean at edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=writers,name6=EntityScreen already registered
+SEVERE: 14-Dec-2023 13:16:01: [EDQ-05202] Bean at edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=readers,name6=IndividualScreen already registered
+SEVERE: 14-Dec-2023 13:16:01: [EDQ-05202] Bean at edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=writers,name6=IndividualScreen already registered
+INFO: 14-Dec-2023 13:16:21: [EDQ-03142] Cache clear for Name - Arabic Name Transcriptions [3,228]
+INFO: 14-Dec-2023 13:16:21: [EDQ-03142] Cache clear for Name - International Name Map [3,229]
+INFO: 14-Dec-2023 13:16:21: [EDQ-03142] Cache clear for Name - Entity International Script Map [3,230]
+INFO: 14-Dec-2023 13:16:21: [EDQ-03142] Cache clear for Transliterate - Entity Cyrillic Transliteration Character Map [3,231]
+INFO: 14-Dec-2023 13:16:21: [EDQ-03142] Cache clear for Transliterate - Entity Japanese Script Map [3,232]
+INFO: 14-Dec-2023 13:16:21: [EDQ-03142] Cache clear for Transliterate - Entity Transliteration Adjustments [3,233]
+INFO: 14-Dec-2023 13:16:21: [EDQ-03142] Cache clear for Country Port No Country [3,234]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Goods Country:Lookup For ISO code From Code [3,235]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Goods Country:Lookup For ISO Code From Country Name [3,236]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Port Name Details [3,237]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Country Port Code [3,238]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Lookup Country Code [3,239]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Port Standard Name Detals [3,240]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Country Port [3,241]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Lookup Country Name To Code [3,242]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Sanctioned Country lookup [3,243]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Sanctioned Country Lookup [3,244]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Sanctioned City Lookup [3,245]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Sanctioned City Synonyms lookup [3,246]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Sanctioned Country Synonyms Lookup [3,247]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Goods Internal Country Reference data-Country Name [3,248]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Goods Internal Country Reference Data-ISO2 [3,249]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Lookup Entity Name [3,250]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Lookup Entity Original Script Name [3,251]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Lookup Individual Original Script Name [3,252]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Standard Entity Name Words [3,253]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - Entity Safe Countries ISO Codes [3,254]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Insignificant Entity Names [3,255]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Titles [3,256]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Standard Entity Name Phrases [3,257]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Common Entity Business Words [3,258]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - Individual Safe Countries ISO Codes [3,259]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for ECM Matches WatchList ID [3,260]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Country - Deleted ISO 3166-1-alpha-2 codes [3,261]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Country - ISO 3166-1-alpha-2 code to Standard Country [3,262]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Standard Accented Characters [3,263]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Entity Base Tokenization Map [3,264]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - Entity Frequent Watchlist Tokens [3,265]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Given Name Map [3,266]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Remove Initials [3,267]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Risk - ISO 3166-1 Country to Risk Score [3,268]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Risk - Risk Element Weightings [3,269]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Common Name Qualifiers [3,270]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Country - ISO 3166-1 Country Master [3,271]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - Organisation Suffixes [3,272]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - Safe Occupations [3,273]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Country - ISO 3166-1-alpha-2 code to Blank [3,274]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - Cardinal Number to Word [3,275]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Common Entity Name Tokens [3,276]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Name Noise Characters Map [3,277]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Entity Name Noise Characters Map [3,278]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Hints - GB Gender from Forename [3,279]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Hints - GB Gender from Title [3,280]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - Ordinal Number to Word [3,281]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Filter - Lookup Region and Status from Origin [3,282]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - English Dictionary Words [3,283]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Cluster Prep - Entity Name Remove Characters [3,284]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Country - ISO 3166-1-alpha-3 to ISO 3166-1-alpha-2 code [3,285]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - Organisation Prefixes [3,286]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Filter - Linked Profiles [3,287]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Match - Organisation Strip Words [3,288]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Text - Standardize Accented Characters [3,289]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Transliterate - Arabic Transliteration Map [3,290]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Transliterate - Cyrillic Transliteration Character Map [3,291]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Transliterate - Kanji Name Map [3,292]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Transliterate - Transliteration Adjustments [3,293]
+INFO: 14-Dec-2023 13:16:22: [EDQ-03142] Cache clear for Transliterate - Unicode Block to Writing System [3,294]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Name - Arabic Name Transcriptions [3,402]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Name - International Name Map [3,403]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Name - Entity International Script Map [3,404]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Transliterate - Entity Cyrillic Transliteration Character Map [3,405]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Transliterate - Entity Japanese Script Map [3,406]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Transliterate - Entity Transliteration Adjustments [3,407]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Country Port No Country [3,408]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Goods Country:Lookup For ISO code From Code [3,409]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Goods Country:Lookup For ISO Code From Country Name [3,410]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Port Name Details [3,411]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Country Port Code [3,412]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Lookup Country Code [3,413]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Port Standard Name Detals [3,414]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Country Port [3,415]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Lookup Country Name To Code [3,416]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Sanctioned Country lookup [3,417]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Sanctioned Country Lookup [3,418]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Sanctioned City Lookup [3,419]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Sanctioned City Synonyms lookup [3,420]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Sanctioned Country Synonyms Lookup [3,421]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Goods Internal Country Reference data-Country Name [3,422]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Goods Internal Country Reference Data-ISO2 [3,423]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Lookup Entity Name [3,424]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Lookup Entity Original Script Name [3,425]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Lookup Individual Original Script Name [3,426]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Standard Entity Name Words [3,427]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - Entity Safe Countries ISO Codes [3,428]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Insignificant Entity Names [3,429]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Titles [3,430]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Standard Entity Name Phrases [3,431]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Common Entity Business Words [3,432]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - Individual Safe Countries ISO Codes [3,433]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for ECM Matches WatchList ID [3,434]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Country - Deleted ISO 3166-1-alpha-2 codes [3,435]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Country - ISO 3166-1-alpha-2 code to Standard Country [3,436]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Standard Accented Characters [3,437]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Entity Base Tokenization Map [3,438]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - Entity Frequent Watchlist Tokens [3,439]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Given Name Map [3,440]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Remove Initials [3,441]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Risk - ISO 3166-1 Country to Risk Score [3,442]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Risk - Risk Element Weightings [3,443]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Common Name Qualifiers [3,444]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Country - ISO 3166-1 Country Master [3,445]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - Organisation Suffixes [3,446]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - Safe Occupations [3,447]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Country - ISO 3166-1-alpha-2 code to Blank [3,448]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - Cardinal Number to Word [3,449]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Common Entity Name Tokens [3,450]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Name Noise Characters Map [3,451]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Entity Name Noise Characters Map [3,452]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Hints - GB Gender from Forename [3,453]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Hints - GB Gender from Title [3,454]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - Ordinal Number to Word [3,455]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Filter - Lookup Region and Status from Origin [3,456]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - English Dictionary Words [3,457]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Cluster Prep - Entity Name Remove Characters [3,458]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Country - ISO 3166-1-alpha-3 to ISO 3166-1-alpha-2 code [3,459]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - Organisation Prefixes [3,460]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Filter - Linked Profiles [3,461]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Match - Organisation Strip Words [3,462]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Text - Standardize Accented Characters [3,463]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Transliterate - Arabic Transliteration Map [3,464]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Transliterate - Cyrillic Transliteration Character Map [3,465]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Transliterate - Kanji Name Map [3,466]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Transliterate - Transliteration Adjustments [3,467]
+INFO: 14-Dec-2023 13:16:45: [EDQ-03142] Cache clear for Transliterate - Unicode Block to Writing System [3,468]
+SEVERE: 14-Dec-2023 13:18:58: [EDQ-05205] ObjectName edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=readers,name6=IndividualScreen_BKP not found in server when unregistering
+SEVERE: 14-Dec-2023 13:18:58: [EDQ-05205] ObjectName edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=writers,name6=IndividualScreen_BKP not found in server when unregistering
+SEVERE: 14-Dec-2023 13:19:11: [EDQ-05205] ObjectName edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=readers,name6=EntityScreen_BKP not found in server when unregistering
+SEVERE: 14-Dec-2023 13:19:11: [EDQ-05205] ObjectName edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=writers,name6=EntityScreen_BKP not found in server when unregistering
+SEVERE: 14-Dec-2023 13:19:24: [EDQ-05205] ObjectName edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=readers,name6=EntityScreen not found in server when unregistering
+SEVERE: 14-Dec-2023 13:19:24: [EDQ-05205] ObjectName edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=writers,name6=EntityScreen not found in server when unregistering
+SEVERE: 14-Dec-2023 13:19:37: [EDQ-05205] ObjectName edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=readers,name6=IndividualScreen not found in server when unregistering
+SEVERE: 14-Dec-2023 13:19:37: [EDQ-05205] ObjectName edq:component=Runtime,name=Data,name1=Buckets,name2=realtime,name3=Projects,name4=Customer-Screening,name5=writers,name6=IndividualScreen not found in server when unregistering
+INFO: 14-Dec-2023 13:23:56: [EDQ-09014] Snapshot executing: Match - Entity Safe Countries ISO Codes
+INFO: 14-Dec-2023 13:23:56: [EDQ-09014] Snapshot executing: Name - International Name Map
+INFO: 14-Dec-2023 13:23:56: [EDQ-09014] Snapshot executing: Country - ISO 3166-1-alpha-3 to ISO 3166-1-alpha-2 code
+INFO: 14-Dec-2023 13:23:56: [EDQ-09014] Snapshot executing: Match - Entity Safe Countries ISO Codes
+INFO: 14-Dec-2023 13:23:56: [EDQ-09014] Snapshot executing: Name - Arabic Name Transcriptions
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Name - International Name Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Entity Cyrillic Transliteration Character Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Country - ISO 3166-1-alpha-3 to ISO 3166-1-alpha-2 code
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Entity Name Phrases
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Name - Arabic Name Transcriptions
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Cyrillic Transliteration Character Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Entity Cyrillic Transliteration Character Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Kanji Name Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Entity Name Phrases
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Remove Initials
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Cyrillic Transliteration Character Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Given Name Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Kanji Name Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Name Noise Characters Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Remove Initials
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Country - ISO 3166-1-alpha-2 code to Blank
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Given Name Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Common Entity Business Words
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Name Noise Characters Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Country - ISO 3166-1 Country Master
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Country - ISO 3166-1-alpha-2 code to Blank
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Insignificant Entity Names
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Common Entity Business Words
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Base Tokenization Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Country - ISO 3166-1 Country Master
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Accented Characters
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Insignificant Entity Names
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Cardinals and Ordinals
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Base Tokenization Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Risk - Risk Element Weightings
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Accented Characters
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Titles
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Cardinals and Ordinals
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Entity Name Words
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Risk - Risk Element Weightings
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Name - Entity International Script Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Titles
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Name Noise Characters Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Entity Name Words
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Text - Standardize Accented Characters
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Name - Entity International Script Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - English Dictionary Words
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Safe Occupations
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Name Noise Characters Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Entity Japanese Script Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Text - Standardize Accented Characters
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - English Dictionary Words
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Individual Safe Countries ISO Codes
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Safe Occupations
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Hints - GB Gender from Forename
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Entity Japanese Script Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Organisation Suffixes
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Hints - GB Gender from Title
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Individual Safe Countries ISO Codes
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Hints - GB Gender from Forename
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Risk - ISO 3166-1 Country to Risk Score
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1156 is 1
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Organisation Suffixes
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Common Entity Name Tokens
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Hints - GB Gender from Title
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Unicode Block to Writing System
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1163 is 26
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Risk - ISO 3166-1 Country to Risk Score
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Common Name Qualifiers
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Common Entity Name Tokens
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Entity Transliteration Adjustments
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1165 is 87
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Unicode Block to Writing System
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Entity Frequent Watchlist Tokens
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Common Name Qualifiers
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Country - Deleted ISO 3166-1-alpha-2 codes
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Entity Transliteration Adjustments
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Organisation Strip Words
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Entity Frequent Watchlist Tokens
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Transliteration Adjustments
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Country - Deleted ISO 3166-1-alpha-2 codes
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1161 is 2
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Organisation Strip Words
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Arabic Transliteration Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Organisation Prefixes
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Transliteration Adjustments
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Name Remove Characters
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1160 is 87
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Match - Organisation Prefixes
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Transliterate - Arabic Transliteration Map
+INFO: 14-Dec-2023 13:23:57: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Name Remove Characters
+INFO: 14-Dec-2023 13:23:57: [EDQ-09020] Snapshot Match - Entity Safe Countries ISO Codes finished execution in 0.75s
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1169 is 406
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1167 is 106
+INFO: 14-Dec-2023 13:23:57: [EDQ-09020] Snapshot Transliterate - Cyrillic Transliteration Character Map finished execution in 0.69s
+INFO: 14-Dec-2023 13:23:57: [EDQ-09020] Snapshot Cluster Prep - Remove Initials finished execution in 0.68s
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1168 is 249
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1157 is 249
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1166 is 250
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1171 is 146
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1173 is 2
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1174 is 288
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1175 is 2
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1172 is 256
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1162 is 1,319
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1179 is 1
+INFO: 14-Dec-2023 13:23:57: [EDQ-09020] Snapshot Cluster Prep - Standard Entity Name Phrases finished execution in 0.86s
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1158 is 1,349
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1178 is 961
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1170 is 20
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1176 is 66
+INFO: 14-Dec-2023 13:23:57: [EDQ-09020] Snapshot Transliterate - Entity Cyrillic Transliteration Character Map finished execution in 0.92s
+INFO: 14-Dec-2023 13:23:57: [EDQ-09020] Snapshot Country - ISO 3166-1-alpha-2 code to Blank finished execution in 0.86s
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1183 is 51
+INFO: 14-Dec-2023 13:23:57: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1189 is 15
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Name Noise Characters Map finished execution in 0.93s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Common Entity Business Words finished execution in 0.91s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1181 is 146
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1177 is 29
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Country - ISO 3166-1-alpha-3 to ISO 3166-1-alpha-2 code finished execution in 1.06s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1182 is 437
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1191 is 1
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Entity Base Tokenization Map finished execution in 0.92s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1195 is 1
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Name - Entity International Script Map finished execution in 0.83s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1193 is 0
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1187 is 34
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Country - ISO 3166-1 Country Master finished execution in 0.98s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1188 is 126
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Standard Accented Characters finished execution in 0.94s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1192 is 271
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1190 is 250
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1196 is 53
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1186 is 1
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Standard Entity Name Words finished execution in 0.95s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1194 is 37
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Insignificant Entity Names finished execution in 1.09s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1185 is 8,560
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1197 is 1
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1198 is 1,961
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Transliterate - Entity Japanese Script Map finished execution in 0.95s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Name - International Name Map finished execution in 1.34s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Hints - GB Gender from Title finished execution in 0.93s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Titles finished execution in 1.14s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Common Entity Name Tokens finished execution in 0.94s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Match - Cardinals and Ordinals finished execution in 1.19s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Transliterate - Entity Transliteration Adjustments finished execution in 0.94s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Given Name Map finished execution in 1.38s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Match - Entity Frequent Watchlist Tokens finished execution in 0.99s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Match - Individual Safe Countries ISO Codes finished execution in 1.19s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1184 is 227
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Match - Organisation Strip Words finished execution in 1.02s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Risk - ISO 3166-1 Country to Risk Score finished execution in 1.18s
+INFO: 14-Dec-2023 13:23:58: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1180 is 57,068
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Match - Organisation Prefixes finished execution in 1.01s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Transliterate - Arabic Transliteration Map finished execution in 1.10s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Transliterate - Transliteration Adjustments finished execution in 1.15s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Common Name Qualifiers finished execution in 1.28s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Hints - GB Gender from Forename finished execution in 1.42s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Transliterate - Unicode Block to Writing System finished execution in 1.36s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Entity Name Remove Characters finished execution in 1.19s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Cluster Prep - Entity Name Noise Characters Map finished execution in 1.60s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Country - Deleted ISO 3166-1-alpha-2 codes finished execution in 1.37s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Risk - Risk Element Weightings finished execution in 1.72s
+INFO: 14-Dec-2023 13:23:58: [EDQ-09020] Snapshot Match - Organisation Suffixes finished execution in 1.59s
+INFO: 14-Dec-2023 13:23:59: [EDQ-09020] Snapshot Text - Standardize Accented Characters finished execution in 1.73s
+INFO: 14-Dec-2023 13:23:59: [EDQ-09020] Snapshot Match - Safe Occupations finished execution in 1.73s
+INFO: 14-Dec-2023 13:23:59: [EDQ-09020] Snapshot Match - English Dictionary Words finished execution in 1.90s
+INFO: 14-Dec-2023 13:23:59: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1159 is 216,800
+INFO: 14-Dec-2023 13:24:00: [EDQ-09020] Snapshot Name - Arabic Name Transcriptions finished execution in 3.57s
+INFO: 14-Dec-2023 13:24:03: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1164 is 368,321
+INFO: 14-Dec-2023 13:24:04: [EDQ-09020] Snapshot Transliterate - Kanji Name Map finished execution in 7.90s
+INFO: 14-Dec-2023 13:24:05: [EDQ-09014] Snapshot executing: PRHB_Individuals
+INFO: 14-Dec-2023 13:24:05: [EDQ-09014] Snapshot executing: PRHB_Entities
+INFO: 14-Dec-2023 13:24:05: [EDQ-09014] Snapshot executing: PRHB_Individuals
+INFO: 14-Dec-2023 13:24:05: [EDQ-09014] Snapshot executing: PRHB_Entities
+INFO: 14-Dec-2023 13:24:05: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1200 is 0
+INFO: 14-Dec-2023 13:24:05: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1199 is 0
+INFO: 14-Dec-2023 13:24:05: [EDQ-09020] Snapshot PRHB_Individuals finished execution in 0.36s
+INFO: 14-Dec-2023 13:24:05: [EDQ-09020] Snapshot PRHB_Entities finished execution in 0.36s
+INFO: 14-Dec-2023 13:24:05: [EDQ-09014] Snapshot executing: Watchlist_Identifier_Prepared
+INFO: 14-Dec-2023 13:24:05: [EDQ-09014] Snapshot executing: Watchlist_Identifier_Prepared
+INFO: 14-Dec-2023 13:24:36: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1201 is 1,374,014
+INFO: 14-Dec-2023 13:24:44: [EDQ-09020] Snapshot Watchlist_Identifier_Prepared finished execution in 39.26s
+INFO: 14-Dec-2023 13:24:44: [EDQ-09014] Snapshot executing: Blacklisted Cities Reference Data
+INFO: 14-Dec-2023 13:24:44: [EDQ-09014] Snapshot executing: Blacklisted Country Reference Data
+INFO: 14-Dec-2023 13:24:44: [EDQ-09014] Snapshot executing: Blacklisted Cities Reference Data
+INFO: 14-Dec-2023 13:24:44: [EDQ-09014] Snapshot executing: Blacklisted Country Reference Data
+INFO: 14-Dec-2023 13:24:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1202 is 0
+INFO: 14-Dec-2023 13:24:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1203 is 16
+INFO: 14-Dec-2023 13:24:45: [EDQ-09020] Snapshot Blacklisted Cities Reference Data finished execution in 0.36s
+INFO: 14-Dec-2023 13:24:45: [EDQ-09020] Snapshot Blacklisted Country Reference Data finished execution in 0.44s
+INFO: 14-Dec-2023 13:24:45: [EDQ-09014] Snapshot executing: Filter - Extracted Origins
+INFO: 14-Dec-2023 13:24:45: [EDQ-09014] Snapshot executing: Filter - Extracted Origins
+INFO: 14-Dec-2023 13:25:01: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1204 is 1,579
+INFO: 14-Dec-2023 13:25:01: [EDQ-09020] Snapshot Filter - Extracted Origins finished execution in 16.15s
+INFO: 14-Dec-2023 13:25:01: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 13:25:01: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:25:01: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:25:01: [EDQ-09020] Snapshot ACY_Individuals_Prepared finished execution in 0.06s
+INFO: 14-Dec-2023 13:25:01: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:25:01: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:25:01: [EDQ-09020] Snapshot ACY_Entities_Prepared finished execution in 0.06s
+INFO: 14-Dec-2023 13:25:06: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 5.05
+INFO: 14-Dec-2023 13:25:06: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 13:25:07: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:25:07: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:25:07: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1205 is 0
+INFO: 14-Dec-2023 13:25:08: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:25:08: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:25:09: [EDQ-09020] Snapshot DJAC_Entities_Prepared finished execution in 2.40s
+INFO: 14-Dec-2023 13:25:09: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1206 is 0
+INFO: 14-Dec-2023 13:25:10: [EDQ-09020] Snapshot DJAC_Individuals_Prepared finished execution in 3.90s
+INFO: 14-Dec-2023 13:25:11: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 4.84
+INFO: 14-Dec-2023 13:25:11: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 13:25:12: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:25:13: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:27:46: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:27:55: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1208 is 1,234,016
+INFO: 14-Dec-2023 13:28:06: [EDQ-09020] Snapshot DJW_Entities_Prepared_CSRT finished execution in 174.48s
+INFO: 14-Dec-2023 13:36:02: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:37:39: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1207 is 5,965,550
+INFO: 14-Dec-2023 13:38:24: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 793.11
+INFO: 14-Dec-2023 13:39:48: [EDQ-09020] Snapshot DJW_Individuals_Prepared_CSRT finished execution in 876.81s
+INFO: 14-Dec-2023 13:39:48: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 13:39:48: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:48: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:48: [EDQ-09020] Snapshot WC_Individuals_Prepared finished execution in 0.05s
+INFO: 14-Dec-2023 13:39:48: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:48: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:48: [EDQ-09020] Snapshot WC_Entities_Prepared finished execution in 0.04s
+INFO: 14-Dec-2023 13:39:53: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 5.47
+INFO: 14-Dec-2023 13:39:53: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : started execution
+INFO: 14-Dec-2023 13:39:53: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:53: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:53: [EDQ-09020] Snapshot HMT_Entities_Prepared finished execution in 0.05s
+INFO: 14-Dec-2023 13:39:53: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:53: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:53: [EDQ-09020] Snapshot HMT_Individuals_Prepared finished execution in 0.05s
+INFO: 14-Dec-2023 13:39:55: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : finished execution in 1.74
+INFO: 14-Dec-2023 13:39:55: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : started execution
+INFO: 14-Dec-2023 13:39:55: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:55: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:55: [EDQ-09020] Snapshot OFAC_Entities_Prepared finished execution in 0.04s
+INFO: 14-Dec-2023 13:39:55: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:55: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:55: [EDQ-09020] Snapshot OFAC_Individuals_Prepared finished execution in 0.05s
+INFO: 14-Dec-2023 13:39:57: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : finished execution in 1.65
+INFO: 14-Dec-2023 13:39:57: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : started execution
+INFO: 14-Dec-2023 13:39:57: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:57: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:57: [EDQ-09020] Snapshot UN_Entities_Prepared finished execution in 0.04s
+INFO: 14-Dec-2023 13:39:57: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:57: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:57: [EDQ-09020] Snapshot UN_Individuals_Prepared finished execution in 0.04s
+INFO: 14-Dec-2023 13:39:58: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : finished execution in 1.57
+INFO: 14-Dec-2023 13:39:59: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : started execution
+INFO: 14-Dec-2023 13:39:59: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:59: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:59: [EDQ-09020] Snapshot EU_Entities_Prepared finished execution in 0.04s
+INFO: 14-Dec-2023 13:39:59: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:39:59: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:39:59: [EDQ-09020] Snapshot EU_Individuals_Prepared finished execution in 0.04s
+INFO: 14-Dec-2023 13:40:00: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : finished execution in 1.62
+INFO: 14-Dec-2023 13:40:00: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 13:40:00: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:40:00: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 13:40:05: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:40:05: [EDQ-09020] Snapshot PRIV_Individuals_Prepared finished execution in 4.44s
+INFO: 14-Dec-2023 13:40:21: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 13:40:21: [EDQ-09020] Snapshot PRIV_Entities_Prepared finished execution in 21.23s
+INFO: 14-Dec-2023 13:40:24: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 131][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 24.04
+INFO: 14-Dec-2023 13:40:25: [EDQ-09014] Snapshot executing: Goods Prohibition
+INFO: 14-Dec-2023 13:40:25: [EDQ-09014] Snapshot executing: Dual Goods
+INFO: 14-Dec-2023 13:40:25: [EDQ-09014] Snapshot executing: Goods Prohibition
+INFO: 14-Dec-2023 13:40:25: [EDQ-09014] Snapshot executing: Dual Goods
+INFO: 14-Dec-2023 13:40:25: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1210 is 0
+INFO: 14-Dec-2023 13:40:25: [EDQ-09020] Snapshot Dual Goods finished execution in 0.41s
+INFO: 14-Dec-2023 13:40:26: [EDQ-09014] Snapshot executing: PORT_CNTRY
+INFO: 14-Dec-2023 13:40:26: [EDQ-09014] Snapshot executing: Ports Prohibition
+INFO: 14-Dec-2023 13:40:26: [EDQ-09014] Snapshot executing: PORT_CNTRY
+INFO: 14-Dec-2023 13:40:26: [EDQ-09014] Snapshot executing: Ports Prohibition
+INFO: 14-Dec-2023 13:40:27: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1209 is 10,666
+INFO: 14-Dec-2023 13:40:27: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1217 is 0
+INFO: 14-Dec-2023 13:40:27: [EDQ-09020] Snapshot Goods Prohibition finished execution in 2.16s
+INFO: 14-Dec-2023 13:40:27: [EDQ-09020] Snapshot PORT_CNTRY finished execution in 0.68s
+INFO: 14-Dec-2023 13:40:29: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1216 is 34,354
+INFO: 14-Dec-2023 13:40:30: [EDQ-09020] Snapshot Ports Prohibition finished execution in 3.55s
+INFO: 14-Dec-2023 13:40:30: [EDQ-06917] [job: Port Data Preparation:2307][exid: 133][runlabel: CS-RealTime][ch0][PROCESS Prepare Port  Ref Data:1901] : started execution
+INFO: 14-Dec-2023 13:40:30: [EDQ-06917] [job: Port Data Preparation:2307][exid: 133][runlabel: CS-RealTime][ch1][PROCESS Ports Prohibition Reference:1900] : started execution
+INFO: 14-Dec-2023 13:40:30: [EDQ-06918] [job: Port Data Preparation:2307][exid: 133][runlabel: CS-RealTime][ch0][PROCESS Prepare Port  Ref Data:1901] : finished execution in 0.47
+INFO: 14-Dec-2023 13:40:32: [EDQ-06918] [job: Port Data Preparation:2307][exid: 133][runlabel: CS-RealTime][ch1][PROCESS Ports Prohibition Reference:1900] : finished execution in 1.84
+INFO: 14-Dec-2023 13:40:32: [EDQ-06917] [job: Port Data Preparation:2307][exid: 133][runlabel: CS-RealTime][ch0][PROCESS Generate Goods Country:1899] : started execution
+INFO: 14-Dec-2023 13:40:36: [EDQ-06918] [job: Port Data Preparation:2307][exid: 133][runlabel: CS-RealTime][ch0][PROCESS Generate Goods Country:1899] : finished execution in 4.06
+INFO: 14-Dec-2023 13:40:38: [EDQ-06917] [job: Prepare Lookup Reference Data:2308][exid: 134][runlabel: CS-RealTime][ch0][PROCESS Process-Blacklisted Country & City Reference Data:1902] : started execution
+INFO: 14-Dec-2023 13:40:43: [EDQ-06918] [job: Prepare Lookup Reference Data:2308][exid: 134][runlabel: CS-RealTime][ch0][PROCESS Process-Blacklisted Country & City Reference Data:1902] : finished execution in 4.44
+INFO: 14-Dec-2023 13:40:43: [EDQ-06917] [job: Prepare Lookup Reference Data:2308][exid: 134][runlabel: CS-RealTime][ch0][PROCESS Cluster Names with Labels:1903] : started execution
+INFO: 14-Dec-2023 13:40:49: [EDQ-06918] [job: Prepare Lookup Reference Data:2308][exid: 134][runlabel: CS-RealTime][ch0][PROCESS Cluster Names with Labels:1903] : finished execution in 6.10
+INFO: 14-Dec-2023 13:41:18: [EDQ-06917] [job: PART 3 - Real-time Screening:2311][exid: 136][runlabel: CS-RealTime][ch1][PROCESS Entity Real-time Screening:1910] : started execution
+INFO: 14-Dec-2023 13:41:18: [EDQ-06917] [job: PART 3 - Real-time Screening:2311][exid: 136][runlabel: CS-RealTime][ch0][PROCESS Individual Real-time Screening:1909] : started execution
+SEVERE: 14-Dec-2023 13:56:08: [EDQ-07901] Work unit error: No more data to read from socket
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: [EDQ-07901] Work unit error: No more data to read from socket
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: [EDQ-07901] Work unit error: No more data to read from socket
+java.sql.SQLRecoverableException: No more data to read from socket
+        at oracle.jdbc.driver.T4CMAREngineStream.unmarshalUB1(T4CMAREngineStream.java:415)
+        at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:408)
+        at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:269)
+        at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:656)
+        at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:271)
+        at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:92)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:971)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeForRowsWithTimeout(OraclePreparedStatement.java:9505)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9620)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: [EDQ-07901] Work unit error: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: [EDQ-07901] Work unit error: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: [EDQ-07901] Work unit error: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:510)
+        at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:462)
+        at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1105)
+        at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:551)
+        at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:269)
+        at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:656)
+        at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:271)
+        at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:92)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:971)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeForRowsWithTimeout(OraclePreparedStatement.java:9505)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9620)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+Caused by: Error : 4036, Position : 0, Sql = INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (:1 , :2 , :3 , :4 , :5 , :6 , :7 , :8 , :9 , :10 , :11 , :12 , :13 , :14 , :15 , :16 , :17 , :18 , :19 , :20 , :21 , :22 , :23 ), OriginalSql = INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?), Error Msg = ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:514)
+        at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:462)
+        at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1105)
+        at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:551)
+        at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:269)
+        at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:656)
+        at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:271)
+        at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:92)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:971)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeForRowsWithTimeout(OraclePreparedStatement.java:9505)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9620)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:750)
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:08: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:08: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:08: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:08: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:09: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:09: No more data to read from socket[INSERT INTO dn_t13447 (record_id, dn_id, record_hash, input1, input2, input3, input4, input5, input6, input7, input8, input9, input10, input11, input12, input13, input14, input15, input16, input17, input18, input19, input20, input21, input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32, input33, input34, input35, input36, input37, input38, input39, input40, input41, input42, input43, input44, input45, input46, input47, input48, input49, input50, input51, input52, input53, input54, input55, input56, input57, input58, input59, input60, input61, input62, input63, input64, input65, input66, input67, input68, input69, old_record_hash) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLRecoverableException: No more data to read from socket
+SEVERE: 14-Dec-2023 13:56:09: [EDQ-05650] ===========================================================================
+SEVERE: 14-Dec-2023 13:56:09: [EDQ-06916] [job: PART 3 - Real-time Screening:2311][exid: 136][runlabel: CS-RealTime][ch1][PROCESS Entity Real-time Screening:1910] : [dnm:matchadvanced.2,264] batch 10 terminated by exception: com.datanomic.director.runtime.AbortedProcessException: oracle.edq.clustering.action.ClusterActionException (Code: 209,861)
+com.datanomic.director.runtime.AbortedProcessException: oracle.edq.clustering.action.ClusterActionException (Code: 209,861)
+        at com.datanomic.director.match.munger.MatchRealtimeExecutor.doTheStuff(MatchRealtimeExecutor.java:252)
+        at com.datanomic.director.runtime.engine.RuntimeProcessMunger$MungerExecutable.execute(RuntimeProcessMunger.java:950)
+        at com.datanomic.utils.execution.Parallelizer$Worker.run(Parallelizer.java:236)
+        at java.lang.Thread.run(Thread.java:750)
+Caused by: oracle.edq.clustering.action.ClusterActionException
+        at oracle.edq.clustering.impl.ParallelActionExecutorImpl.execute(ParallelActionExecutorImpl.java:139)
+        at com.datanomic.director.match.munger.MatchRealtimeExecutor.doTheStuff(MatchRealtimeExecutor.java:242)
+        ... 3 more
+Caused by: com.datanomic.director.results.database.exception.sql.ResultsSQLException: A database error has occurred : No more data to read from socket. (Code: 200,302)
+        at com.datanomic.director.results.database.translator.MapErrorCodes.mapException(MapErrorCodes.java:71)
+        at com.datanomic.director.results.database.TableInsert.insertData(TableInsert.java:244)
+        at com.datanomic.director.results.database.TableInsert.insertData(TableInsert.java:197)
+        at com.datanomic.director.results.database.TableWithArraysInsert.insertData(TableWithArraysInsert.java:107)
+        at com.datanomic.director.match.runtime.engines.clustering.data.writers.DBInputWriter.writeInput(DBInputWriter.java:169)
+        at com.datanomic.director.match.runtime.engines.clustering.data.writers.DBInputWriter.writeInput(DBInputWriter.java:132)
+        at com.datanomic.director.match.runtime.engines.clustering.ClusteringEngine.clusterRecord(ClusteringEngine.java:339)
+        at com.datanomic.director.match.runtime.RealtimeHandler.processReferenceRecord(RealtimeHandler.java:213)
+        at com.datanomic.director.match.munger.MatchRealtimeExecutor.doBatchWork(MatchRealtimeExecutor.java:460)
+        at com.datanomic.director.match.munger.DoBatchWork.run(DoBatchWork.java:12)
+        at com.datanomic.director.match.munger.DoBatchWork.run(DoBatchWork.java:5)
+        at oracle.edq.clustering.impl.ParallelActionExecutorImpl.execute(ParallelActionExecutorImpl.java:116)
+        ... 4 more
+Caused by: java.sql.BatchUpdateException: No more data to read from socket
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: [EDQ-05650] ===========================================================================
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:56:09: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+[INSERT INTO dn_t13691 (record_id, coded_value, cluster_index, hash_value, director_id, ident0, ident1, ident2, ident3, ident4, ident5, ident6, ident7, ident8, ident9, ident10, ident11, ident12, ident13, ident14, ident15, ident16, ident17) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+java.sql.BatchUpdateException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+        at oracle.jdbc.driver.OraclePreparedStatement.executeLargeBatch(OraclePreparedStatement.java:9775)
+        at oracle.jdbc.driver.T4CPreparedStatement.executeLargeBatch(T4CPreparedStatement.java:1448)
+        at oracle.jdbc.driver.OraclePreparedStatement.executeBatch(OraclePreparedStatement.java:9540)
+        at oracle.jdbc.driver.OracleStatementWrapper.executeBatch(OracleStatementWrapper.java:238)
+        at weblogic.jdbc.wrapper.PreparedStatement.executeBatch(PreparedStatement.java:197)
+        at com.datanomic.director.results.database.executor.WorkUnit.insertRowsNoBatching(WorkUnit.java:159)
+        at com.datanomic.director.results.database.executor.WorkUnit.run(WorkUnit.java:106)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.processRecoverableError(WorkUnitMonitor.java:115)
+        at com.datanomic.director.results.database.executor.WorkUnitMonitor.workUnitFinished(WorkUnitMonitor.java:77)
+        at com.datanomic.director.results.database.executor.WorkUnitExecutor$WUE.afterExecute(WorkUnitExecutor.java:299)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+SEVERE: 14-Dec-2023 13:56:09: Caused by: java.sql.SQLException: ORA-04036: PGA memory used by the instance exceeds PGA_AGGREGATE_LIMIT
+
+SEVERE: 14-Dec-2023 13:58:07: [EDQ-07900] Table remover error : Closed Connection
+java.sql.SQLRecoverableException: Closed Connection
+        at oracle.jdbc.driver.PhysicalConnection.getMetaData(PhysicalConnection.java:3075)
+        at weblogic.jdbc.wrapper.Connection.getMetaData(Connection.java:582)
+        at com.datanomic.utils.sql.SQLCreator.exists(SQLCreator.java:333)
+        at com.datanomic.director.results.catalogue.TableRemover.doTheStuff(TableRemover.java:134)
+        at com.datanomic.director.results.catalogue.TableRemover.run(TableRemover.java:78)
+        at java.lang.Thread.run(Thread.java:750)
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Match - Entity Safe Countries ISO Codes
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Country - ISO 3166-1-alpha-3 to ISO 3166-1-alpha-2 code
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Name - International Name Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Name - Arabic Name Transcriptions
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Entity Name Phrases
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Transliterate - Cyrillic Transliteration Character Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Transliterate - Entity Cyrillic Transliteration Character Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Match - Entity Safe Countries ISO Codes
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Name Noise Characters Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Transliterate - Kanji Name Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Accented Characters
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Country - ISO 3166-1-alpha-3 to ISO 3166-1-alpha-2 code
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Name - International Name Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Given Name Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Entity Name Phrases
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Common Entity Business Words
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Titles
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Name - Arabic Name Transcriptions
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Match - Cardinals and Ordinals
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Transliterate - Cyrillic Transliteration Character Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Transliterate - Entity Cyrillic Transliteration Character Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Risk - Risk Element Weightings
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Name Noise Characters Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Base Tokenization Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Transliterate - Kanji Name Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Country - ISO 3166-1 Country Master
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Accented Characters
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Given Name Map
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Remove Initials
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Country - ISO 3166-1-alpha-2 code to Blank
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Cluster Prep - Common Entity Business Words
+INFO: 14-Dec-2023 15:42:42: [EDQ-09014] Snapshot executing: Name - Entity International Script Map
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Titles
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Entity Name Words
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Cardinals and Ordinals
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Insignificant Entity Names
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Text - Standardize Accented Characters
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Risk - Risk Element Weightings
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - English Dictionary Words
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Name Noise Characters Map
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Base Tokenization Map
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Country - ISO 3166-1 Country Master
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Entity Japanese Script Map
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Country - ISO 3166-1-alpha-2 code to Blank
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Remove Initials
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Safe Occupations
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Name - Entity International Script Map
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Arabic Transliteration Map
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Name Remove Characters
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Insignificant Entity Names
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Text - Standardize Accented Characters
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Entity Frequent Watchlist Tokens
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Standard Entity Name Words
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Risk - ISO 3166-1 Country to Risk Score
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Unicode Block to Writing System
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - English Dictionary Words
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Common Entity Name Tokens
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Name Noise Characters Map
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Organisation Suffixes
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Transliteration Adjustments
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Entity Japanese Script Map
+INFO: 14-Dec-2023 15:42:43: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1156 is 1
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Safe Occupations
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Arabic Transliteration Map
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Common Name Qualifiers
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Risk - ISO 3166-1 Country to Risk Score
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Entity Transliteration Adjustments
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Entity Name Remove Characters
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Entity Frequent Watchlist Tokens
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Hints - GB Gender from Title
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Hints - GB Gender from Forename
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Unicode Block to Writing System
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Individual Safe Countries ISO Codes
+INFO: 14-Dec-2023 15:42:43: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1161 is 2
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Organisation Strip Words
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Common Entity Name Tokens
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Organisation Prefixes
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Organisation Suffixes
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Entity Transliteration Adjustments
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Country - Deleted ISO 3166-1-alpha-2 codes
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Cluster Prep - Common Name Qualifiers
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Transliterate - Transliteration Adjustments
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Hints - GB Gender from Title
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Organisation Strip Words
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Hints - GB Gender from Forename
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Organisation Prefixes
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Country - Deleted ISO 3166-1-alpha-2 codes
+INFO: 14-Dec-2023 15:42:43: [EDQ-09014] Snapshot executing: Match - Individual Safe Countries ISO Codes
+INFO: 14-Dec-2023 15:42:43: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1165 is 87
+INFO: 14-Dec-2023 15:42:43: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1160 is 87
+INFO: 14-Dec-2023 15:42:43: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1157 is 249
+INFO: 14-Dec-2023 15:42:43: [EDQ-09020] Snapshot Match - Entity Safe Countries ISO Codes finished execution in 1.26s
+INFO: 14-Dec-2023 15:42:44: [EDQ-09020] Snapshot Cluster Prep - Standard Entity Name Phrases finished execution in 1.28s
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1174 is 288
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1175 is 2
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1158 is 1,349
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1197 is 1
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1171 is 146
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1194 is 37
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1186 is 1
+INFO: 14-Dec-2023 15:42:44: [EDQ-09020] Snapshot Transliterate - Cyrillic Transliteration Character Map finished execution in 1.60s
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1188 is 126
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1191 is 1
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1183 is 51
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1192 is 271
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1196 is 53
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1189 is 15
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1178 is 961
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1185 is 8,560
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1190 is 250
+INFO: 14-Dec-2023 15:42:44: [EDQ-09020] Snapshot Name - Entity International Script Map finished execution in 1.66s
+INFO: 14-Dec-2023 15:42:44: [EDQ-09020] Snapshot Transliterate - Entity Cyrillic Transliteration Character Map finished execution in 1.87s
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1163 is 26
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1166 is 250
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1179 is 1
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1193 is 0
+INFO: 14-Dec-2023 15:42:44: [EDQ-09020] Snapshot Cluster Prep - Standard Entity Name Words finished execution in 1.77s
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1173 is 2
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1184 is 227
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1169 is 406
+INFO: 14-Dec-2023 15:42:44: [EDQ-09020] Snapshot Country - ISO 3166-1-alpha-3 to ISO 3166-1-alpha-2 code finished execution in 2.15s
+INFO: 14-Dec-2023 15:42:44: [EDQ-09020] Snapshot Name - International Name Map finished execution in 2.18s
+INFO: 14-Dec-2023 15:42:44: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1195 is 1
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Transliterate - Unicode Block to Writing System finished execution in 1.85s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Match - Individual Safe Countries ISO Codes finished execution in 1.70s
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1172 is 256
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1187 is 34
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1182 is 437
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1168 is 249
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1180 is 57,068
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Match - Organisation Strip Words finished execution in 1.82s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Match - Organisation Prefixes finished execution in 1.79s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Cluster Prep - Standard Accented Characters finished execution in 2.33s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Cluster Prep - Common Entity Name Tokens finished execution in 1.98s
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1167 is 106
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Transliterate - Entity Transliteration Adjustments finished execution in 1.95s
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1170 is 20
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1181 is 146
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Transliterate - Entity Japanese Script Map finished execution in 2.23s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Country - Deleted ISO 3166-1-alpha-2 codes finished execution in 1.90s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Transliterate - Arabic Transliteration Map finished execution in 2.24s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Match - Entity Frequent Watchlist Tokens finished execution in 2.22s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Risk - ISO 3166-1 Country to Risk Score finished execution in 2.22s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Cluster Prep - Insignificant Entity Names finished execution in 2.47s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Cluster Prep - Remove Initials finished execution in 2.56s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Country - ISO 3166-1 Country Master finished execution in 2.77s
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Hints - GB Gender from Title finished execution in 2.49s
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1198 is 1,961
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1162 is 1,319
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1176 is 66
+INFO: 14-Dec-2023 15:42:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1177 is 29
+INFO: 14-Dec-2023 15:42:45: [EDQ-09020] Snapshot Match - Safe Occupations finished execution in 2.89s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Country - ISO 3166-1-alpha-2 code to Blank finished execution in 3.41s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Cluster Prep - Entity Base Tokenization Map finished execution in 3.47s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Hints - GB Gender from Forename finished execution in 3.11s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Cluster Prep - Name Noise Characters Map finished execution in 3.63s
+INFO: 14-Dec-2023 15:42:46: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1159 is 216,800
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Cluster Prep - Common Entity Business Words finished execution in 3.61s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Match - Cardinals and Ordinals finished execution in 3.59s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Match - English Dictionary Words finished execution in 3.49s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Text - Standardize Accented Characters finished execution in 3.53s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Cluster Prep - Entity Name Noise Characters Map finished execution in 3.53s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Cluster Prep - Titles finished execution in 3.74s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Cluster Prep - Given Name Map finished execution in 3.81s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Risk - Risk Element Weightings finished execution in 3.75s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Cluster Prep - Entity Name Remove Characters finished execution in 3.58s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Transliterate - Transliteration Adjustments finished execution in 3.52s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Cluster Prep - Common Name Qualifiers finished execution in 3.52s
+INFO: 14-Dec-2023 15:42:46: [EDQ-09020] Snapshot Match - Organisation Suffixes finished execution in 3.57s
+INFO: 14-Dec-2023 15:42:47: [EDQ-09020] Snapshot Name - Arabic Name Transcriptions finished execution in 4.89s
+INFO: 14-Dec-2023 15:42:49: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1164 is 368,321
+INFO: 14-Dec-2023 15:42:50: [EDQ-09020] Snapshot Transliterate - Kanji Name Map finished execution in 8.12s
+INFO: 14-Dec-2023 15:42:50: [EDQ-09014] Snapshot executing: PRHB_Individuals
+INFO: 14-Dec-2023 15:42:51: [EDQ-09014] Snapshot executing: PRHB_Entities
+INFO: 14-Dec-2023 15:42:51: [EDQ-09014] Snapshot executing: PRHB_Individuals
+INFO: 14-Dec-2023 15:42:51: [EDQ-09014] Snapshot executing: PRHB_Entities
+INFO: 14-Dec-2023 15:42:51: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1199 is 0
+INFO: 14-Dec-2023 15:42:51: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1200 is 0
+INFO: 14-Dec-2023 15:42:51: [EDQ-09020] Snapshot PRHB_Individuals finished execution in 0.54s
+INFO: 14-Dec-2023 15:42:51: [EDQ-09020] Snapshot PRHB_Entities finished execution in 0.54s
+INFO: 14-Dec-2023 15:42:51: [EDQ-09014] Snapshot executing: Watchlist_Identifier_Prepared
+INFO: 14-Dec-2023 15:42:51: [EDQ-09014] Snapshot executing: Watchlist_Identifier_Prepared
+INFO: 14-Dec-2023 15:43:26: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1201 is 1,374,014
+INFO: 14-Dec-2023 15:43:33: [EDQ-09020] Snapshot Watchlist_Identifier_Prepared finished execution in 41.86s
+INFO: 14-Dec-2023 15:43:33: [EDQ-09014] Snapshot executing: Blacklisted Country Reference Data
+INFO: 14-Dec-2023 15:43:33: [EDQ-09014] Snapshot executing: Blacklisted Cities Reference Data
+INFO: 14-Dec-2023 15:43:33: [EDQ-09014] Snapshot executing: Blacklisted Country Reference Data
+INFO: 14-Dec-2023 15:43:33: [EDQ-09014] Snapshot executing: Blacklisted Cities Reference Data
+INFO: 14-Dec-2023 15:43:33: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1202 is 0
+INFO: 14-Dec-2023 15:43:33: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1203 is 16
+INFO: 14-Dec-2023 15:43:34: [EDQ-09020] Snapshot Blacklisted Cities Reference Data finished execution in 0.52s
+INFO: 14-Dec-2023 15:43:34: [EDQ-09020] Snapshot Blacklisted Country Reference Data finished execution in 0.60s
+INFO: 14-Dec-2023 15:43:34: [EDQ-09014] Snapshot executing: Filter - Extracted Origins
+INFO: 14-Dec-2023 15:43:34: [EDQ-09014] Snapshot executing: Filter - Extracted Origins
+INFO: 14-Dec-2023 15:43:37: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1204 is 1,579
+INFO: 14-Dec-2023 15:43:37: [EDQ-09020] Snapshot Filter - Extracted Origins finished execution in 3.68s
+INFO: 14-Dec-2023 15:43:37: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 15:43:37: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:43:37: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:43:37: [EDQ-09020] Snapshot ACY_Entities_Prepared finished execution in 0.12s
+INFO: 14-Dec-2023 15:43:37: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:43:37: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:43:37: [EDQ-09020] Snapshot ACY_Individuals_Prepared finished execution in 0.11s
+INFO: 14-Dec-2023 15:43:43: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 5.32
+INFO: 14-Dec-2023 15:43:43: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 15:43:45: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:43:45: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:43:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1205 is 0
+INFO: 14-Dec-2023 15:43:45: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:43:45: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:43:45: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1206 is 0
+INFO: 14-Dec-2023 15:43:46: [EDQ-09020] Snapshot DJAC_Entities_Prepared finished execution in 3.07s
+INFO: 14-Dec-2023 15:43:47: [EDQ-09020] Snapshot DJAC_Individuals_Prepared finished execution in 4.12s
+INFO: 14-Dec-2023 15:43:49: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 5.75
+INFO: 14-Dec-2023 15:43:49: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 15:43:51: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:43:51: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:46:29: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:46:38: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1208 is 1,234,016
+INFO: 14-Dec-2023 15:46:47: [EDQ-09020] Snapshot DJW_Entities_Prepared_CSRT finished execution in 178.13s
+INFO: 14-Dec-2023 15:54:42: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:56:04: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1207 is 5,965,550
+INFO: 14-Dec-2023 15:56:29: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 760.90
+INFO: 14-Dec-2023 15:57:52: [EDQ-09020] Snapshot DJW_Individuals_Prepared_CSRT finished execution in 843.09s
+INFO: 14-Dec-2023 15:57:52: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 15:57:52: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:57:52: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:57:52: [EDQ-09020] Snapshot WC_Entities_Prepared finished execution in 0.10s
+INFO: 14-Dec-2023 15:57:52: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:57:52: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:57:52: [EDQ-09020] Snapshot WC_Individuals_Prepared finished execution in 0.13s
+INFO: 14-Dec-2023 15:57:57: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 5.32
+INFO: 14-Dec-2023 15:57:57: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : started execution
+INFO: 14-Dec-2023 15:57:57: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:57:57: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:57:57: [EDQ-09020] Snapshot HMT_Entities_Prepared finished execution in 0.10s
+INFO: 14-Dec-2023 15:57:57: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:57:57: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:57:57: [EDQ-09020] Snapshot HMT_Individuals_Prepared finished execution in 0.11s
+INFO: 14-Dec-2023 15:57:59: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : finished execution in 2.02
+INFO: 14-Dec-2023 15:57:59: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : started execution
+INFO: 14-Dec-2023 15:57:59: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:57:59: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:57:59: [EDQ-09020] Snapshot OFAC_Individuals_Prepared finished execution in 0.10s
+INFO: 14-Dec-2023 15:57:59: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:57:59: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:57:59: [EDQ-09020] Snapshot OFAC_Entities_Prepared finished execution in 0.10s
+INFO: 14-Dec-2023 15:58:01: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : finished execution in 2.17
+INFO: 14-Dec-2023 15:58:01: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : started execution
+INFO: 14-Dec-2023 15:58:01: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:58:01: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:58:01: [EDQ-09020] Snapshot UN_Entities_Prepared finished execution in 0.10s
+INFO: 14-Dec-2023 15:58:02: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:58:02: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:58:02: [EDQ-09020] Snapshot UN_Individuals_Prepared finished execution in 0.11s
+INFO: 14-Dec-2023 15:58:04: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : finished execution in 2.18
+INFO: 14-Dec-2023 15:58:04: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : started execution
+INFO: 14-Dec-2023 15:58:04: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:58:04: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:58:04: [EDQ-09020] Snapshot EU_Entities_Prepared finished execution in 0.12s
+INFO: 14-Dec-2023 15:58:04: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:58:04: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:58:04: [EDQ-09020] Snapshot EU_Individuals_Prepared finished execution in 0.11s
+INFO: 14-Dec-2023 15:58:06: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Stage Prepared Watchlists:1896] : finished execution in 2.49
+INFO: 14-Dec-2023 15:58:06: [EDQ-06917] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : started execution
+INFO: 14-Dec-2023 15:58:06: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:58:06: [EDQ-06863] starting execution of data batch 0
+INFO: 14-Dec-2023 15:58:12: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:58:12: [EDQ-09020] Snapshot PRIV_Individuals_Prepared finished execution in 5.50s
+INFO: 14-Dec-2023 15:58:29: [EDQ-06866] data batch 0 complete
+INFO: 14-Dec-2023 15:58:29: [EDQ-09020] Snapshot PRIV_Entities_Prepared finished execution in 22.64s
+INFO: 14-Dec-2023 15:58:34: [EDQ-06918] [job: PART 2 - Prepare Reference Data:2305][exid: 139][runlabel: CS-RealTime][ch0][PROCESS Split Watchlists By Record Type:1897] : finished execution in 27.78
+INFO: 14-Dec-2023 15:58:35: [EDQ-09014] Snapshot executing: Dual Goods
+INFO: 14-Dec-2023 15:58:35: [EDQ-09014] Snapshot executing: Goods Prohibition
+INFO: 14-Dec-2023 15:58:35: [EDQ-09014] Snapshot executing: Dual Goods
+INFO: 14-Dec-2023 15:58:35: [EDQ-09014] Snapshot executing: Goods Prohibition
+INFO: 14-Dec-2023 15:58:35: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1210 is 0
+INFO: 14-Dec-2023 15:58:35: [EDQ-09020] Snapshot Dual Goods finished execution in 0.88s
+INFO: 14-Dec-2023 15:58:38: [EDQ-09014] Snapshot executing: Ports Prohibition
+INFO: 14-Dec-2023 15:58:38: [EDQ-09014] Snapshot executing: PORT_CNTRY
+INFO: 14-Dec-2023 15:58:38: [EDQ-09014] Snapshot executing: Ports Prohibition
+INFO: 14-Dec-2023 15:58:38: [EDQ-09014] Snapshot executing: PORT_CNTRY
+INFO: 14-Dec-2023 15:58:38: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1209 is 10,666
+INFO: 14-Dec-2023 15:58:39: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1217 is 0
+INFO: 14-Dec-2023 15:58:39: [EDQ-09020] Snapshot Goods Prohibition finished execution in 4.23s
+INFO: 14-Dec-2023 15:58:39: [EDQ-09020] Snapshot PORT_CNTRY finished execution in 0.95s
+INFO: 14-Dec-2023 15:58:41: [EDQ-02301] Total number of snapshot rows loaded for table dn_r1216 is 34,354
+INFO: 14-Dec-2023 15:58:42: [EDQ-09020] Snapshot Ports Prohibition finished execution in 3.74s
+INFO: 14-Dec-2023 15:58:42: [EDQ-06917] [job: Port Data Preparation:2307][exid: 141][runlabel: CS-RealTime][ch0][PROCESS Prepare Port  Ref Data:1901] : started execution
+INFO: 14-Dec-2023 15:58:42: [EDQ-06917] [job: Port Data Preparation:2307][exid: 141][runlabel: CS-RealTime][ch1][PROCESS Ports Prohibition Reference:1900] : started execution
+INFO: 14-Dec-2023 15:58:42: [EDQ-06918] [job: Port Data Preparation:2307][exid: 141][runlabel: CS-RealTime][ch0][PROCESS Prepare Port  Ref Data:1901] : finished execution in 0.75
+INFO: 14-Dec-2023 15:58:46: [EDQ-06918] [job: Port Data Preparation:2307][exid: 141][runlabel: CS-RealTime][ch1][PROCESS Ports Prohibition Reference:1900] : finished execution in 4.82
+INFO: 14-Dec-2023 15:58:47: [EDQ-06917] [job: Port Data Preparation:2307][exid: 141][runlabel: CS-RealTime][ch0][PROCESS Generate Goods Country:1899] : started execution
+INFO: 14-Dec-2023 15:58:47: [EDQ-06918] [job: Port Data Preparation:2307][exid: 141][runlabel: CS-RealTime][ch0][PROCESS Generate Goods Country:1899] : finished execution in 0.87
+INFO: 14-Dec-2023 15:58:54: [EDQ-06917] [job: Prepare Lookup Reference Data:2308][exid: 142][runlabel: CS-RealTime][ch0][PROCESS Process-Blacklisted Country & City Reference Data:1902] : started execution
+INFO: 14-Dec-2023 15:58:56: [EDQ-06918] [job: Prepare Lookup Reference Data:2308][exid: 142][runlabel: CS-RealTime][ch0][PROCESS Process-Blacklisted Country & City Reference Data:1902] : finished execution in 2.43
+INFO: 14-Dec-2023 15:58:56: [EDQ-06917] [job: Prepare Lookup Reference Data:2308][exid: 142][runlabel: CS-RealTime][ch0][PROCESS Cluster Names with Labels:1903] : started execution
+INFO: 14-Dec-2023 15:59:00: [EDQ-06918] [job: Prepare Lookup Reference Data:2308][exid: 142][runlabel: CS-RealTime][ch0][PROCESS Cluster Names with Labels:1903] : finished execution in 3.57
+INFO: 14-Dec-2023 15:59:50: [EDQ-06917] [job: PART 3 - Real-time Screening:2311][exid: 144][runlabel: CS-RealTime][ch0][PROCESS Individual Real-time Screening:1909] : started execution
+INFO: 14-Dec-2023 15:59:50: [EDQ-06917] [job: PART 3 - Real-time Screening:2311][exid: 144][runlabel: CS-RealTime][ch1][PROCESS Entity Real-time Screening:1910] : started execution

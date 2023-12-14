@@ -1,6 +1,7 @@
 - hosts: localhost
   gather_facts: False
   vars_files:
+    - "{{ VARS_PATH }}"
     - variables/common.yml
   vars:
     release: "RLSE0596291"
